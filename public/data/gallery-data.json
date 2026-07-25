@@ -1,0 +1,2383 @@
+﻿{
+    "estatisticas":  {
+                         "totalClientes":  [
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                         "totalImagens":  437,
+                         "geradoEm":  "2026-07-25 18:58:44"
+                     },
+    "clientes":  {
+                     "ELEJOR":  {
+                                    "imagens":  [
+                                                    "/images/ELEJOR/DSC06273.JPG",
+                                                    "/images/ELEJOR/DSC06290.JPG",
+                                                    "/images/ELEJOR/DSC06297.JPG",
+                                                    "/images/ELEJOR/WhatsApp Image 2021-09-09 at 09.10.56 (4).jpeg",
+                                                    "/images/ELEJOR/WhatsApp Image 2021-09-09 at 09.18.11.jpeg"
+                                                ],
+                                    "nome":  "ELEJOR",
+                                    "totalImagens":  5,
+                                    "servicos":  [
+                                                     "HIDROELÉTRICAS E BARRAGENS"
+                                                 ]
+                                },
+                     "SABESP 2022":  {
+                                         "imagens":  [
+                                                         "/images/SABESP 2022/DSC01344.JPG",
+                                                         "/images/SABESP 2022/DSC01347.JPG",
+                                                         "/images/SABESP 2022/WhatsApp Image 2022-02-11 at 17.16.39.jpeg",
+                                                         "/images/SABESP 2022/WhatsApp Image 2022-03-04 at 17.07.50.jpeg"
+                                                     ],
+                                         "nome":  "SABESP 2022",
+                                         "totalImagens":  4,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "AXXO 2021":  {
+                                       "imagens":  [
+                                                       "/images/AXXO 2021/IMG_9095.JPG",
+                                                       "/images/AXXO 2021/IMG_9105.JPG",
+                                                       "/images/AXXO 2021/IMG_9149.JPG"
+                                                   ],
+                                       "nome":  "AXXO 2021",
+                                       "totalImagens":  3,
+                                       "servicos":  [
+                                                        "RECUPERAÇÃO ESTRUTURAL"
+                                                    ]
+                                   },
+                     "TBG":  {
+                                 "imagens":  [
+                                                 "/images/TBG/DSC00150.JPG",
+                                                 "/images/TBG/DSC00164.JPG",
+                                                 "/images/TBG/DSC00165.JPG",
+                                                 "/images/TBG/DSC00173.JPG",
+                                                 "/images/TBG/DSC08463.JPG"
+                                             ],
+                                 "nome":  "TBG",
+                                 "totalImagens":  5,
+                                 "servicos":  [
+                                                  "Diversos"
+                                              ]
+                             },
+                     "PUBLICO":  {
+                                     "imagens":  [
+                                                     "/images/PUBLICO/Imagem do WhatsApp de 2025-05-06 à(s) 12.48.12_b8d0ef37.jpg",
+                                                     "/images/PUBLICO/Imagem do WhatsApp de 2025-05-15 à(s) 13.30.35_429a8249.jpg",
+                                                     "/images/PUBLICO/Imagem do WhatsApp de 2025-08-04 à(s) 12.06.47_76aeb739.jpg",
+                                                     "/images/PUBLICO/Imagem do WhatsApp de 2025-10-28 à(s) 10.51.37_7e035cd2.jpg",
+                                                     "/images/PUBLICO/Imagem do WhatsApp de 2025-10-28 à(s) 17.51.27_ed457bf4.jpg"
+                                                 ],
+                                     "nome":  "PUBLICO",
+                                     "totalImagens":  5,
+                                     "servicos":  [
+                                                      "Diversos"
+                                                  ]
+                                 },
+                     "SABESP 2020":  {
+                                         "imagens":  [
+                                                         "/images/SABESP 2020/DSC03636.JPG",
+                                                         "/images/SABESP 2020/DSC07940.JPG",
+                                                         "/images/SABESP 2020/DSC07944.JPG",
+                                                         "/images/SABESP 2020/WhatsApp Image 2020-12-07 at 14.31.16.jpeg",
+                                                         "/images/SABESP 2020/WhatsApp Image 2020-12-09 at 17.13.12.jpeg"
+                                                     ],
+                                         "nome":  "SABESP 2020",
+                                         "totalImagens":  5,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "AXXO":  {
+                                  "imagens":  [
+                                                  "/images/AXXO/DSC00671.JPG",
+                                                  "/images/AXXO/DSC00674.JPG",
+                                                  "/images/AXXO/DSC00676.JPG",
+                                                  "/images/AXXO/DSC00684.JPG"
+                                              ],
+                                  "nome":  "AXXO",
+                                  "totalImagens":  4,
+                                  "servicos":  [
+                                                   "RECUPERAÇÃO ESTRUTURAL"
+                                               ]
+                              },
+                     "CODESP":  {
+                                    "imagens":  [
+                                                    "/images/CODESP/defensa 03e.JPG",
+                                                    "/images/CODESP/DSC00541.JPG",
+                                                    "/images/CODESP/DSC00544.JPG",
+                                                    "/images/CODESP/DSC07101.JPG",
+                                                    "/images/CODESP/IMG_20181009_153306910_HDR.jpg"
+                                                ],
+                                    "nome":  "CODESP",
+                                    "totalImagens":  5,
+                                    "servicos":  [
+                                                     "INSPEÇÃO E VISTORIA",
+                                                     "RECUPERAÇÃO ESTRUTURAL"
+                                                 ]
+                                },
+                     "AT\u0026T ENERGIA S.A":  {
+                                                   "imagens":  [
+                                                                   "/images/AT\u0026T ENERGIA S.A/WhatsApp Image 2021-11-29 at 10.35.44.jpeg",
+                                                                   "/images/AT\u0026T ENERGIA S.A/WhatsApp Image 2021-11-29 at 10.35.47.jpeg"
+                                                               ],
+                                                   "nome":  "AT\u0026T ENERGIA S.A",
+                                                   "totalImagens":  2,
+                                                   "servicos":  [
+                                                                    "HIDROELÉTRICAS E BARRAGENS"
+                                                                ]
+                                               },
+                     "FKB - COMPORTAS":  {
+                                             "imagens":  [
+                                                             "/images/FKB - COMPORTAS/DSC07897.JPG",
+                                                             "/images/FKB - COMPORTAS/IMG_9267.JPG",
+                                                             "/images/FKB - COMPORTAS/IMG_9288.JPG",
+                                                             "/images/FKB - COMPORTAS/IMG_9293.JPG"
+                                                         ],
+                                             "nome":  "FKB - COMPORTAS",
+                                             "totalImagens":  4,
+                                             "servicos":  [
+                                                              "Diversos"
+                                                          ]
+                                         },
+                     "CMA CGM":  {
+                                     "imagens":  [
+                                                     "/images/CMA CGM/LQPO7781.JPG",
+                                                     "/images/CMA CGM/NKLS7183.JPG",
+                                                     "/images/CMA CGM/TOVO1041.JPG",
+                                                     "/images/CMA CGM/UYXQ5205.JPG",
+                                                     "/images/CMA CGM/YLHT5300.JPG"
+                                                 ],
+                                     "nome":  "CMA CGM",
+                                     "totalImagens":  5,
+                                     "servicos":  [
+                                                      "INSPEÇÃO E VISTORIA",
+                                                      "NAVIOS E PLATAFORMAS"
+                                                  ]
+                                 },
+                     "PETROBRAS":  {
+                                       "imagens":  [
+                                                       "/images/PETROBRAS/DSC04343.JPG",
+                                                       "/images/PETROBRAS/WhatsApp Image 2024-08-27 at 12.48.43.jpeg",
+                                                       "/images/PETROBRAS/WhatsApp Image 2024-09-02 at 08.12.29 (4).jpeg"
+                                                   ],
+                                       "nome":  "PETROBRAS",
+                                       "totalImagens":  3,
+                                       "servicos":  [
+                                                        "Diversos"
+                                                    ]
+                                   },
+                     "SDZ":  {
+                                 "imagens":  [
+                                                 "/images/SDZ/DSC05696.JPG",
+                                                 "/images/SDZ/DSC05783.JPG",
+                                                 "/images/SDZ/DSC05822.JPG",
+                                                 "/images/SDZ/DSC05884.JPG",
+                                                 "/images/SDZ/DSC05887.JPG"
+                                             ],
+                                 "nome":  "SDZ",
+                                 "totalImagens":  5,
+                                 "servicos":  [
+                                                  "Diversos"
+                                              ]
+                             },
+                     "ALIANÇA ENERGIA":  {
+                                             "imagens":  [
+                                                             "/images/ALIANÇA ENERGIA/DSC09162.JPG",
+                                                             "/images/ALIANÇA ENERGIA/DSC09196.JPG",
+                                                             "/images/ALIANÇA ENERGIA/WhatsApp Image 2022-08-22 at 10.55.42.jpeg"
+                                                         ],
+                                             "nome":  "ALIANÇA ENERGIA",
+                                             "totalImagens":  3,
+                                             "servicos":  [
+                                                              "HIDROELÉTRICAS E BARRAGENS"
+                                                          ]
+                                         },
+                     "ZORTEA ~2018":  {
+                                          "imagens":  [
+                                                          "/images/ZORTEA ~2018/20160129_095812.jpg",
+                                                          "/images/ZORTEA ~2018/20160229_143330.jpg",
+                                                          "/images/ZORTEA ~2018/20160302_104949.jpg",
+                                                          "/images/ZORTEA ~2018/20160517_151130.jpg"
+                                                      ],
+                                          "nome":  "ZORTEA ~2018",
+                                          "totalImagens":  4,
+                                          "servicos":  [
+                                                           "Diversos"
+                                                       ]
+                                      },
+                     "IGARAPAVA ENERGIA":  {
+                                               "imagens":  [
+                                                               "/images/IGARAPAVA ENERGIA/DSC02001.JPG",
+                                                               "/images/IGARAPAVA ENERGIA/DSC02109.JPG",
+                                                               "/images/IGARAPAVA ENERGIA/WhatsApp Image 2022-12-27 at 11.16.07.jpeg"
+                                                           ],
+                                               "nome":  "IGARAPAVA ENERGIA",
+                                               "totalImagens":  3,
+                                               "servicos":  [
+                                                                "Diversos"
+                                                            ]
+                                           },
+                     "ALIANÇA ENERGIA 2023":  {
+                                                  "imagens":  [
+                                                                  "/images/ALIANÇA ENERGIA 2023/DSC02221.JPG",
+                                                                  "/images/ALIANÇA ENERGIA 2023/DSC02302.JPG",
+                                                                  "/images/ALIANÇA ENERGIA 2023/WhatsApp Image 2023-10-31 at 09.37.35.jpeg"
+                                                              ],
+                                                  "nome":  "ALIANÇA ENERGIA 2023",
+                                                  "totalImagens":  3,
+                                                  "servicos":  [
+                                                                   "HIDROELÉTRICAS E BARRAGENS"
+                                                               ]
+                                              },
+                     "CGH CASCATA":  {
+                                         "imagens":  [
+                                                         "/images/CGH CASCATA/WhatsApp Image 2024-04-25 at 15.13.15.jpeg",
+                                                         "/images/CGH CASCATA/WhatsApp Image 2024-04-25 at 15.13.19.jpeg"
+                                                     ],
+                                         "nome":  "CGH CASCATA",
+                                         "totalImagens":  2,
+                                         "servicos":  [
+                                                          "HIDROELÉTRICAS E BARRAGENS"
+                                                      ]
+                                     },
+                     "BRK AMBIENTAL":  {
+                                           "imagens":  [
+                                                           "/images/BRK AMBIENTAL/DSC08528.JPG",
+                                                           "/images/BRK AMBIENTAL/DSC08545.JPG",
+                                                           "/images/BRK AMBIENTAL/DSC08552.JPG",
+                                                           "/images/BRK AMBIENTAL/DSC08553.JPG",
+                                                           "/images/BRK AMBIENTAL/DSC08557.JPG"
+                                                       ],
+                                           "nome":  "BRK AMBIENTAL",
+                                           "totalImagens":  5,
+                                           "servicos":  [
+                                                            "INSPEÇÃO E VISTORIA",
+                                                            "TRATAMENTO DE ÁGUA"
+                                                        ]
+                                       },
+                     "VIATÉCNICA - RONDONÓPOLIS":  {
+                                                       "imagens":  [
+                                                                       "/images/VIATÉCNICA - RONDONÓPOLIS/DSC00982.JPG",
+                                                                       "/images/VIATÉCNICA - RONDONÓPOLIS/DSC01047.JPG",
+                                                                       "/images/VIATÉCNICA - RONDONÓPOLIS/DSC01186.JPG"
+                                                                   ],
+                                                       "nome":  "VIATÉCNICA - RONDONÓPOLIS",
+                                                       "totalImagens":  3,
+                                                       "servicos":  [
+                                                                        "Diversos"
+                                                                    ]
+                                                   },
+                     "DAE":  {
+                                 "imagens":  [
+                                                 "/images/DAE/WhatsApp Image 2025-09-24 at 14.48.15.jpeg"
+                                             ],
+                                 "nome":  "DAE",
+                                 "totalImagens":  1,
+                                 "servicos":  [
+                                                  "TRATAMENTO DE ÁGUA"
+                                              ]
+                             },
+                     "BTP - BRASIL TERMINAL PORTUÁRIO":  {
+                                                             "imagens":  [
+                                                                             "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC00605.JPG",
+                                                                             "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC00607.JPG",
+                                                                             "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01645.JPG",
+                                                                             "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01707.JPG",
+                                                                             "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01916.JPG"
+                                                                         ],
+                                                             "nome":  "BTP - BRASIL TERMINAL PORTUÁRIO",
+                                                             "totalImagens":  5,
+                                                             "servicos":  [
+                                                                              "INSPEÇÃO E VISTORIA",
+                                                                              "RECUPERAÇÃO ESTRUTURAL"
+                                                                          ]
+                                                         },
+                     "PARATY ENERGIA":  {
+                                            "imagens":  [
+                                                            "/images/PARATY ENERGIA/DSC04241.JPG",
+                                                            "/images/PARATY ENERGIA/WhatsApp Image 2024-10-23 at 17.59.39.jpeg"
+                                                        ],
+                                            "nome":  "PARATY ENERGIA",
+                                            "totalImagens":  2,
+                                            "servicos":  [
+                                                             "Diversos"
+                                                         ]
+                                        },
+                     "CONSORCIO PAULITEC":  {
+                                                "imagens":  [
+                                                                "/images/CONSORCIO PAULITEC/DSC00918.JPG",
+                                                                "/images/CONSORCIO PAULITEC/DSC01066.JPG",
+                                                                "/images/CONSORCIO PAULITEC/DSC01334.JPG",
+                                                                "/images/CONSORCIO PAULITEC/DSC01379.JPG",
+                                                                "/images/CONSORCIO PAULITEC/DSC01486.JPG"
+                                                            ],
+                                                "nome":  "CONSORCIO PAULITEC",
+                                                "totalImagens":  5,
+                                                "servicos":  [
+                                                                 "RECUPERAÇÃO ESTRUTURAL"
+                                                             ]
+                                            },
+                     "LOG-IN _ PROINDE ~2018":  {
+                                                    "imagens":  [
+                                                                    "/images/LOG-IN _ PROINDE ~2018/DSC00739.JPG",
+                                                                    "/images/LOG-IN _ PROINDE ~2018/WhatsApp Image 2017-08-12 at 10.26.19.jpeg",
+                                                                    "/images/LOG-IN _ PROINDE ~2018/WhatsApp Image 2017-08-12 at 10.26.22.jpeg"
+                                                                ],
+                                                    "nome":  "LOG-IN _ PROINDE ~2018",
+                                                    "totalImagens":  3,
+                                                    "servicos":  [
+                                                                     "Diversos"
+                                                                 ]
+                                                },
+                     "AGEO":  {
+                                  "imagens":  [
+                                                  "/images/AGEO/DSC05015.JPG",
+                                                  "/images/AGEO/DSC05195.JPG",
+                                                  "/images/AGEO/DSC05201.JPG",
+                                                  "/images/AGEO/DSC05286.JPG"
+                                              ],
+                                  "nome":  "AGEO",
+                                  "totalImagens":  4,
+                                  "servicos":  [
+                                                   "INSPEÇÃO E VISTORIA",
+                                                   "RECUPERAÇÃO ESTRUTURAL"
+                                               ]
+                              },
+                     "TECNIPLAN 2025":  {
+                                            "imagens":  [
+                                                            "/images/TECNIPLAN 2025/WhatsApp Image 2025-02-07 at 11.22.39.jpeg",
+                                                            "/images/TECNIPLAN 2025/WhatsApp Image 2025-02-07 at 11.22.41.jpeg",
+                                                            "/images/TECNIPLAN 2025/WhatsApp Image 2025-02-07 at 11.23.26.jpeg",
+                                                            "/images/TECNIPLAN 2025/WhatsApp Image 2025-02-07 at 11.23.27.jpeg",
+                                                            "/images/TECNIPLAN 2025/WhatsApp Image 2025-02-07 at 11.23.34.jpeg"
+                                                        ],
+                                            "nome":  "TECNIPLAN 2025",
+                                            "totalImagens":  5,
+                                            "servicos":  [
+                                                             "Diversos"
+                                                         ]
+                                        },
+                     "ULTRACARGO ~2018":  {
+                                              "imagens":  [
+                                                              "/images/ULTRACARGO ~2018/IMG_7703.JPG",
+                                                              "/images/ULTRACARGO ~2018/IMG_7739.JPG"
+                                                          ],
+                                              "nome":  "ULTRACARGO ~2018",
+                                              "totalImagens":  2,
+                                              "servicos":  [
+                                                               "Diversos"
+                                                           ]
+                                          },
+                     "KSB BOMBAS":  {
+                                        "imagens":  [
+                                                        "/images/KSB BOMBAS/DSC09062.JPG",
+                                                        "/images/KSB BOMBAS/DSC09075.JPG",
+                                                        "/images/KSB BOMBAS/DSC09090.JPG",
+                                                        "/images/KSB BOMBAS/WhatsApp Image 2021-05-10 at 14.27.06.jpeg"
+                                                    ],
+                                        "nome":  "KSB BOMBAS",
+                                        "totalImagens":  4,
+                                        "servicos":  [
+                                                         "Diversos"
+                                                     ]
+                                    },
+                     "FINGER \u0026 SOMMER 2023":  {
+                                                       "imagens":  [
+                                                                       "/images/FINGER \u0026 SOMMER 2023/DSC00137.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2023/DSC01906.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2023/DSC09949.JPG"
+                                                                   ],
+                                                       "nome":  "FINGER \u0026 SOMMER 2023",
+                                                       "totalImagens":  3,
+                                                       "servicos":  [
+                                                                        "Diversos"
+                                                                    ]
+                                                   },
+                     "PONTE DOS BARREIROS":  {
+                                                 "imagens":  [
+                                                                 "/images/PONTE DOS BARREIROS/GOPR9013.JPG",
+                                                                 "/images/PONTE DOS BARREIROS/GOPR9014.JPG",
+                                                                 "/images/PONTE DOS BARREIROS/JPG109.jpg"
+                                                             ],
+                                                 "nome":  "PONTE DOS BARREIROS",
+                                                 "totalImagens":  3,
+                                                 "servicos":  [
+                                                                  "Diversos"
+                                                              ]
+                                             },
+                     "AGEO 2024":  {
+                                       "imagens":  [
+                                                       "/images/AGEO 2024/WhatsApp Image 2024-05-29 at 14.41.08.jpeg"
+                                                   ],
+                                       "nome":  "AGEO 2024",
+                                       "totalImagens":  1,
+                                       "servicos":  [
+                                                        "INSPEÇÃO E VISTORIA",
+                                                        "RECUPERAÇÃO ESTRUTURAL"
+                                                    ]
+                                   },
+                     "DAE ~2018":  {
+                                       "imagens":  [
+                                                       "/images/DAE ~2018/DSC09299.JPG",
+                                                       "/images/DAE ~2018/DSC09316.JPG",
+                                                       "/images/DAE ~2018/DSC09335.JPG"
+                                                   ],
+                                       "nome":  "DAE ~2018",
+                                       "totalImagens":  3,
+                                       "servicos":  [
+                                                        "TRATAMENTO DE ÁGUA"
+                                                    ]
+                                   },
+                     "BRK PORTO FERREIRA":  {
+                                                "imagens":  [
+                                                                "/images/BRK PORTO FERREIRA/WhatsApp Image 2023-11-07 at 13.15.24.jpeg"
+                                                            ],
+                                                "nome":  "BRK PORTO FERREIRA",
+                                                "totalImagens":  1,
+                                                "servicos":  [
+                                                                 "INSPEÇÃO E VISTORIA",
+                                                                 "TRATAMENTO DE ÁGUA"
+                                                             ]
+                                            },
+                     "IGARAPAVA 2026":  {
+                                            "imagens":  [
+                                                            "/images/IGARAPAVA 2026/WhatsApp Image 2026-04-22 at 09.02.31.jpeg"
+                                                        ],
+                                            "nome":  "IGARAPAVA 2026",
+                                            "totalImagens":  1,
+                                            "servicos":  [
+                                                             "Diversos"
+                                                         ]
+                                        },
+                     "PORTO AÇU":  {
+                                       "imagens":  [
+                                                       "/images/PORTO AÇU/WhatsApp Image 2025-12-11 at 17.36.5711.jpeg",
+                                                       "/images/PORTO AÇU/WhatsApp Image 2025-12-11 at 17.45.37.jpeg",
+                                                       "/images/PORTO AÇU/WhatsApp Image 2025-12-17 at 10.36.36.jpeg"
+                                                   ],
+                                       "nome":  "PORTO AÇU",
+                                       "totalImagens":  3,
+                                       "servicos":  [
+                                                        "Diversos"
+                                                    ]
+                                   },
+                     "RUMO":  {
+                                  "imagens":  [
+                                                  "/images/RUMO/WhatsApp Image 2022-06-15 at 11.31.06.jpeg",
+                                                  "/images/RUMO/WhatsApp Image 2022-06-15 at 12.20.25.jpeg"
+                                              ],
+                                  "nome":  "RUMO",
+                                  "totalImagens":  2,
+                                  "servicos":  [
+                                                   "Diversos"
+                                               ]
+                              },
+                     "CTG 2024":  {
+                                      "imagens":  [
+                                                      "/images/CTG 2024/WhatsApp Image 2024-01-22 at 17.43.05.jpeg"
+                                                  ],
+                                      "nome":  "CTG 2024",
+                                      "totalImagens":  1,
+                                      "servicos":  [
+                                                       "HIDROELÉTRICAS E BARRAGENS"
+                                                   ]
+                                  },
+                     "PIACENTINI":  {
+                                        "imagens":  [
+                                                        "/images/PIACENTINI/DSC00493.JPG",
+                                                        "/images/PIACENTINI/DSC00496.JPG",
+                                                        "/images/PIACENTINI/DSC00747.JPG",
+                                                        "/images/PIACENTINI/DSC09030.JPG",
+                                                        "/images/PIACENTINI/DSC09049.JPG"
+                                                    ],
+                                        "nome":  "PIACENTINI",
+                                        "totalImagens":  5,
+                                        "servicos":  [
+                                                         "Diversos"
+                                                     ]
+                                    },
+                     "AUREN ENERGIA":  {
+                                           "imagens":  [
+                                                           "/images/AUREN ENERGIA/WhatsApp Image 2025-10-24 at 08.51.28.jpeg",
+                                                           "/images/AUREN ENERGIA/WhatsApp Image 2025-11-03 at 17.19.52.jpeg"
+                                                       ],
+                                           "nome":  "AUREN ENERGIA",
+                                           "totalImagens":  2,
+                                           "servicos":  [
+                                                            "HIDROELÉTRICAS E BARRAGENS"
+                                                        ]
+                                       },
+                     "NATURA":  {
+                                    "imagens":  [
+                                                    "/images/NATURA/WhatsApp Image 2023-06-28 at 11.50.04.jpeg",
+                                                    "/images/NATURA/WhatsApp Image 2023-06-28 at 11.50.05.jpeg"
+                                                ],
+                                    "nome":  "NATURA",
+                                    "totalImagens":  2,
+                                    "servicos":  [
+                                                     "Diversos"
+                                                 ]
+                                },
+                     "FKB - VÁLVULAS E COMPORTAS":  {
+                                                        "imagens":  [
+                                                                        "/images/FKB - VÁLVULAS E COMPORTAS/DSC00007.JPG",
+                                                                        "/images/FKB - VÁLVULAS E COMPORTAS/DSC00010.JPG",
+                                                                        "/images/FKB - VÁLVULAS E COMPORTAS/DSC00031.JPG",
+                                                                        "/images/FKB - VÁLVULAS E COMPORTAS/IMG_3774.JPG",
+                                                                        "/images/FKB - VÁLVULAS E COMPORTAS/WhatsApp Image 2023-07-05 at 22.57.01 (4).jpeg"
+                                                                    ],
+                                                        "nome":  "FKB - VÁLVULAS E COMPORTAS",
+                                                        "totalImagens":  5,
+                                                        "servicos":  [
+                                                                         "Diversos"
+                                                                     ]
+                                                    },
+                     "PCH EMAS":  {
+                                      "imagens":  [
+                                                      "/images/PCH EMAS/WhatsApp Image 2026-01-06 at 11.13.47.jpeg",
+                                                      "/images/PCH EMAS/WhatsApp Image 2026-01-06 at 11.33.23.jpeg"
+                                                  ],
+                                      "nome":  "PCH EMAS",
+                                      "totalImagens":  2,
+                                      "servicos":  [
+                                                       "Diversos"
+                                                   ]
+                                  },
+                     "LOG-IN_PROINDE":  {
+                                            "imagens":  [
+                                                            "/images/LOG-IN_PROINDE/DSC00491.JPG",
+                                                            "/images/LOG-IN_PROINDE/DSC00492.JPG",
+                                                            "/images/LOG-IN_PROINDE/DSC00494.JPG",
+                                                            "/images/LOG-IN_PROINDE/DSC01674.JPG",
+                                                            "/images/LOG-IN_PROINDE/DSC01844.JPG"
+                                                        ],
+                                            "nome":  "LOG-IN_PROINDE",
+                                            "totalImagens":  5,
+                                            "servicos":  [
+                                                             "Diversos"
+                                                         ]
+                                        },
+                     "CONDOMINIO SWISS PARK":  {
+                                                   "imagens":  [
+                                                                   "/images/CONDOMINIO SWISS PARK/WhatsApp Image 2024-01-31 at 09.42.56.jpeg",
+                                                                   "/images/CONDOMINIO SWISS PARK/WhatsApp Image 2024-01-31 at 09.48.10 (4).jpeg"
+                                                               ],
+                                                   "nome":  "CONDOMINIO SWISS PARK",
+                                                   "totalImagens":  2,
+                                                   "servicos":  [
+                                                                    "RECUPERAÇÃO ESTRUTURAL"
+                                                                ]
+                                               },
+                     "NAVIOS":  {
+                                    "imagens":  [
+                                                    "/images/NAVIOS/DSC00228.JPG",
+                                                    "/images/NAVIOS/DSC06301.JPG",
+                                                    "/images/NAVIOS/DSC06324.JPG",
+                                                    "/images/NAVIOS/DSC06333.JPG",
+                                                    "/images/NAVIOS/DSC07606.JPG"
+                                                ],
+                                    "nome":  "NAVIOS",
+                                    "totalImagens":  5,
+                                    "servicos":  [
+                                                     "Diversos"
+                                                 ]
+                                },
+                     "NATURA 2024":  {
+                                         "imagens":  [
+                                                         "/images/NATURA 2024/DSC03118.JPG",
+                                                         "/images/NATURA 2024/DSC03146.JPG",
+                                                         "/images/NATURA 2024/DSC05850.JPG",
+                                                         "/images/NATURA 2024/DSC05855.JPG"
+                                                     ],
+                                         "nome":  "NATURA 2024",
+                                         "totalImagens":  4,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "TECNIPLAN":  {
+                                       "imagens":  [
+                                                       "/images/TECNIPLAN/DSC09669.JPG",
+                                                       "/images/TECNIPLAN/DSC09726.JPG",
+                                                       "/images/TECNIPLAN/DSC09733.JPG",
+                                                       "/images/TECNIPLAN/WhatsApp Image 2022-11-10 at 14.05.55.jpeg"
+                                                   ],
+                                       "nome":  "TECNIPLAN",
+                                       "totalImagens":  4,
+                                       "servicos":  [
+                                                        "Diversos"
+                                                    ]
+                                   },
+                     "INTENGE":  {
+                                     "imagens":  [
+                                                     "/images/INTENGE/DSC00408.JPG",
+                                                     "/images/INTENGE/DSC00608.JPG"
+                                                 ],
+                                     "nome":  "INTENGE",
+                                     "totalImagens":  2,
+                                     "servicos":  [
+                                                      "Diversos"
+                                                  ]
+                                 },
+                     "CUTRALE ~2018":  {
+                                           "imagens":  [
+                                                           "/images/CUTRALE ~2018/DSC00288.JPG",
+                                                           "/images/CUTRALE ~2018/DSC01365.JPG",
+                                                           "/images/CUTRALE ~2018/GOPR1245.JPG"
+                                                       ],
+                                           "nome":  "CUTRALE ~2018",
+                                           "totalImagens":  3,
+                                           "servicos":  [
+                                                            "INSPEÇÃO E VISTORIA",
+                                                            "RECUPERAÇÃO ESTRUTURAL"
+                                                        ]
+                                       },
+                     "ALIANÇA ENERGIA 2024":  {
+                                                  "imagens":  [
+                                                                  "/images/ALIANÇA ENERGIA 2024/DSC04309.JPG",
+                                                                  "/images/ALIANÇA ENERGIA 2024/WhatsApp Image 2024-11-07 at 20.23.46.jpeg"
+                                                              ],
+                                                  "nome":  "ALIANÇA ENERGIA 2024",
+                                                  "totalImagens":  2,
+                                                  "servicos":  [
+                                                                   "HIDROELÉTRICAS E BARRAGENS"
+                                                               ]
+                                              },
+                     "DAE AMERICANA":  {
+                                           "imagens":  [
+                                                           "/images/DAE AMERICANA/IMG_20190321_094413008_BURST000_COVER_TOP.jpg",
+                                                           "/images/DAE AMERICANA/IMG_20190321_094419291.jpg",
+                                                           "/images/DAE AMERICANA/IMG_20190321_095432685.jpg",
+                                                           "/images/DAE AMERICANA/IMG_20190321_105650407.jpg",
+                                                           "/images/DAE AMERICANA/IMG_20190321_111715258.jpg"
+                                                       ],
+                                           "nome":  "DAE AMERICANA",
+                                           "totalImagens":  5,
+                                           "servicos":  [
+                                                            "TRATAMENTO DE ÁGUA"
+                                                        ]
+                                       },
+                     "CTG BRASIL 2022":  {
+                                             "imagens":  [
+                                                             "/images/CTG BRASIL 2022/1. UHE Chavantes aéreo.jpg",
+                                                             "/images/CTG BRASIL 2022/WhatsApp Image 2022-07-07 at 16.33.46.jpeg",
+                                                             "/images/CTG BRASIL 2022/WhatsApp Image 2022-11-16 at 10.46.52.jpeg",
+                                                             "/images/CTG BRASIL 2022/WhatsApp Image 2022-11-22 at 11.54.18.jpeg",
+                                                             "/images/CTG BRASIL 2022/WhatsApp Image 2022-11-22 at 11.54.26.jpeg"
+                                                         ],
+                                             "nome":  "CTG BRASIL 2022",
+                                             "totalImagens":  5,
+                                             "servicos":  [
+                                                              "HIDROELÉTRICAS E BARRAGENS"
+                                                          ]
+                                         },
+                     "VOPAK":  {
+                                   "imagens":  [
+                                                   "/images/VOPAK/DSC00988.JPG",
+                                                   "/images/VOPAK/DSC01060.JPG",
+                                                   "/images/VOPAK/DSC03232.JPG",
+                                                   "/images/VOPAK/DSC03250.JPG"
+                                               ],
+                                   "nome":  "VOPAK",
+                                   "totalImagens":  4,
+                                   "servicos":  [
+                                                    "Diversos"
+                                                ]
+                               },
+                     "CEMIG":  {
+                                   "imagens":  [
+                                                   "/images/CEMIG/DSC00699.JPG",
+                                                   "/images/CEMIG/DSC00721.JPG",
+                                                   "/images/CEMIG/DSC00725.JPG",
+                                                   "/images/CEMIG/DSC00733.JPG",
+                                                   "/images/CEMIG/DSC02431 (1600 x 1200).jpg"
+                                               ],
+                                   "nome":  "CEMIG",
+                                   "totalImagens":  5,
+                                   "servicos":  [
+                                                    "HIDROELÉTRICAS E BARRAGENS"
+                                                ]
+                               },
+                     "CLUBE INTERNACIONAL DE REGATAS":  {
+                                                            "imagens":  [
+                                                                            "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-04-25 at 10.45.53.jpeg",
+                                                                            "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-04-25 at 10.45.56.jpeg",
+                                                                            "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-04-25 at 17.23.07.jpeg",
+                                                                            "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-05-03 at 12.03.54.jpeg"
+                                                                        ],
+                                                            "nome":  "CLUBE INTERNACIONAL DE REGATAS",
+                                                            "totalImagens":  4,
+                                                            "servicos":  [
+                                                                             "RECUPERAÇÃO ESTRUTURAL"
+                                                                         ]
+                                                        },
+                     "RETROFIT":  {
+                                      "imagens":  [
+                                                      "/images/RETROFIT/DSC02424.JPG",
+                                                      "/images/RETROFIT/DSC02506.JPG",
+                                                      "/images/RETROFIT/DSC02512.JPG",
+                                                      "/images/RETROFIT/DSC02894.JPG",
+                                                      "/images/RETROFIT/DSC04691.JPG"
+                                                  ],
+                                      "nome":  "RETROFIT",
+                                      "totalImagens":  5,
+                                      "servicos":  [
+                                                       "Diversos"
+                                                   ]
+                                  },
+                     "REDRAM":  {
+                                    "imagens":  [
+                                                    "/images/REDRAM/WhatsApp Image 2021-07-26 at 11.14.49.jpeg",
+                                                    "/images/REDRAM/WhatsApp Image 2021-07-26 at 11.39.24.jpeg"
+                                                ],
+                                    "nome":  "REDRAM",
+                                    "totalImagens":  2,
+                                    "servicos":  [
+                                                     "Diversos"
+                                                 ]
+                                },
+                     "FARES \u0026 ASSOCIADOS ENGENHARIA":  {
+                                                                "imagens":  [
+                                                                                "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00268.JPG",
+                                                                                "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00471.JPG",
+                                                                                "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00581.JPG",
+                                                                                "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00622.JPG",
+                                                                                "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00832.JPG"
+                                                                            ],
+                                                                "nome":  "FARES \u0026 ASSOCIADOS ENGENHARIA",
+                                                                "totalImagens":  5,
+                                                                "servicos":  [
+                                                                                 "RECUPERAÇÃO ESTRUTURAL"
+                                                                             ]
+                                                            },
+                     "SABESP 2021":  {
+                                         "imagens":  [
+                                                         "/images/SABESP 2021/DSC02623.JPG",
+                                                         "/images/SABESP 2021/DSC02626.JPG",
+                                                         "/images/SABESP 2021/DSC07644.JPG",
+                                                         "/images/SABESP 2021/DSC08961.JPG",
+                                                         "/images/SABESP 2021/DSC08971.JPG"
+                                                     ],
+                                         "nome":  "SABESP 2021",
+                                         "totalImagens":  5,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "CLI SUL":  {
+                                     "imagens":  [
+                                                     "/images/CLI SUL/1.jpg",
+                                                     "/images/CLI SUL/WhatsApp Image 2025-10-01 at 15.51.27.jpeg"
+                                                 ],
+                                     "nome":  "CLI SUL",
+                                     "totalImagens":  2,
+                                     "servicos":  [
+                                                      "RECUPERAÇÃO ESTRUTURAL"
+                                                  ]
+                                 },
+                     "YARA BRASIL":  {
+                                         "imagens":  [
+                                                         "/images/YARA BRASIL/DSC01162.JPG",
+                                                         "/images/YARA BRASIL/DSC01170.JPG",
+                                                         "/images/YARA BRASIL/DSC01197.JPG",
+                                                         "/images/YARA BRASIL/DSC01232.JPG",
+                                                         "/images/YARA BRASIL/DSC09823.JPG"
+                                                     ],
+                                         "nome":  "YARA BRASIL",
+                                         "totalImagens":  5,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "LIBRA TERMINAIS":  {
+                                             "imagens":  [
+                                                             "/images/LIBRA TERMINAIS/DSC05147.JPG"
+                                                         ],
+                                             "nome":  "LIBRA TERMINAIS",
+                                             "totalImagens":  1,
+                                             "servicos":  [
+                                                              "Diversos"
+                                                          ]
+                                         },
+                     "BRK AMBIENTAL 2020":  {
+                                                "imagens":  [
+                                                                "/images/BRK AMBIENTAL 2020/DSC00063.JPG",
+                                                                "/images/BRK AMBIENTAL 2020/IMG_6483.jpg",
+                                                                "/images/BRK AMBIENTAL 2020/IMG_6486.jpg"
+                                                            ],
+                                                "nome":  "BRK AMBIENTAL 2020",
+                                                "totalImagens":  3,
+                                                "servicos":  [
+                                                                 "INSPEÇÃO E VISTORIA",
+                                                                 "TRATAMENTO DE ÁGUA"
+                                                             ]
+                                            },
+                     "NAVIOS 2022":  {
+                                         "imagens":  [
+                                                         "/images/NAVIOS 2022/FHD0020.JPG",
+                                                         "/images/NAVIOS 2022/FHD0087.JPG",
+                                                         "/images/NAVIOS 2022/FHD0150.JPG",
+                                                         "/images/NAVIOS 2022/FHD0453.JPG",
+                                                         "/images/NAVIOS 2022/FHD0720.JPG"
+                                                     ],
+                                         "nome":  "NAVIOS 2022",
+                                         "totalImagens":  5,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "SABESP ~2018":  {
+                                          "imagens":  [
+                                                          "/images/SABESP ~2018/DSC02710.JPG",
+                                                          "/images/SABESP ~2018/DSC07277.JPG",
+                                                          "/images/SABESP ~2018/DSC07280.JPG",
+                                                          "/images/SABESP ~2018/IMG_1496.JPG",
+                                                          "/images/SABESP ~2018/IMG_1498.JPG"
+                                                      ],
+                                          "nome":  "SABESP ~2018",
+                                          "totalImagens":  5,
+                                          "servicos":  [
+                                                           "Diversos"
+                                                       ]
+                                      },
+                     "SANTOS BRASIL":  {
+                                           "imagens":  [
+                                                           "/images/SANTOS BRASIL/WhatsApp Image 2023-12-29 at 14.44.38.jpeg",
+                                                           "/images/SANTOS BRASIL/WhatsApp Image 2024-01-25 at 11.06.05.jpeg"
+                                                       ],
+                                           "nome":  "SANTOS BRASIL",
+                                           "totalImagens":  2,
+                                           "servicos":  [
+                                                            "Diversos"
+                                                        ]
+                                       },
+                     "SPA - SANTOS PORT AUTORIT":  {
+                                                       "imagens":  [
+                                                                       "/images/SPA - SANTOS PORT AUTORIT/10.jpg",
+                                                                       "/images/SPA - SANTOS PORT AUTORIT/2.jpg",
+                                                                       "/images/SPA - SANTOS PORT AUTORIT/DSC09585.JPG",
+                                                                       "/images/SPA - SANTOS PORT AUTORIT/DSC09669.JPG",
+                                                                       "/images/SPA - SANTOS PORT AUTORIT/DSC09831.JPG"
+                                                                   ],
+                                                       "nome":  "SPA - SANTOS PORT AUTORIT",
+                                                       "totalImagens":  5,
+                                                       "servicos":  [
+                                                                        "Diversos"
+                                                                    ]
+                                                   },
+                     "CAMARGO CORREA - FOZ DO CHAPECÓ":  {
+                                                             "imagens":  [
+                                                                             "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/CRHM7345.JPG",
+                                                                             "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/DSC09779.JPG",
+                                                                             "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/DSC09900.JPG",
+                                                                             "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/DSC09945.JPG",
+                                                                             "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/IMG_1711.JPG"
+                                                                         ],
+                                                             "nome":  "CAMARGO CORREA - FOZ DO CHAPECÓ",
+                                                             "totalImagens":  5,
+                                                             "servicos":  [
+                                                                              "HIDROELÉTRICAS E BARRAGENS"
+                                                                          ]
+                                                         },
+                     "outras empresas":  {
+                                             "imagens":  [
+                                                             "/images/outras empresas/ABTL/WhatsApp Image 2020-12-03 at 14.50.37.jpeg",
+                                                             "/images/outras empresas/ABTL/WhatsApp Image 2020-12-23 at 08.07.15.jpeg",
+                                                             "/images/outras empresas/AGASPAR/WhatsApp Image 2019-07-08 at 10.06.33.jpeg",
+                                                             "/images/outras empresas/CCI/5.JPG",
+                                                             "/images/outras empresas/FALCÃO BAUER/DSC02805.JPG"
+                                                         ],
+                                             "nome":  "outras empresas",
+                                             "totalImagens":  5,
+                                             "servicos":  [
+                                                              "Diversos"
+                                                          ]
+                                         },
+                     "GUANHAES ENERGIA 2024":  {
+                                                   "imagens":  [
+                                                                   "/images/GUANHAES ENERGIA 2024/WhatsApp Image 2024-11-08 at 18.02.13.jpeg"
+                                                               ],
+                                                   "nome":  "GUANHAES ENERGIA 2024",
+                                                   "totalImagens":  1,
+                                                   "servicos":  [
+                                                                    "Diversos"
+                                                                ]
+                                               },
+                     "4S ENGENHARIA":  {
+                                           "imagens":  [
+                                                           "/images/4S ENGENHARIA/FOTOS/DSC07680.JPG",
+                                                           "/images/4S ENGENHARIA/FOTOS/DSC07681.JPG",
+                                                           "/images/4S ENGENHARIA/FOTOS/DSC07683.JPG",
+                                                           "/images/4S ENGENHARIA/FOTOS/DSC07685.JPG",
+                                                           "/images/4S ENGENHARIA/FOTOS/DSC07905.JPG"
+                                                       ],
+                                           "nome":  "4S ENGENHARIA",
+                                           "totalImagens":  5,
+                                           "servicos":  [
+                                                            "RECUPERAÇÃO ESTRUTURAL"
+                                                        ]
+                                       },
+                     "SWISS PARK":  {
+                                        "imagens":  [
+                                                        "/images/SWISS PARK/DSC00263.JPG",
+                                                        "/images/SWISS PARK/DSC00264.JPG",
+                                                        "/images/SWISS PARK/DSC00391.JPG",
+                                                        "/images/SWISS PARK/DSC00424.JPG",
+                                                        "/images/SWISS PARK/DSC00426.JPG"
+                                                    ],
+                                        "nome":  "SWISS PARK",
+                                        "totalImagens":  5,
+                                        "servicos":  [
+                                                         "Diversos"
+                                                     ]
+                                    },
+                     "FINGER \u0026 SOMMER 2024":  {
+                                                       "imagens":  [
+                                                                       "/images/FINGER \u0026 SOMMER 2024/DSC00517.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2024/DSC00765.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2024/DSC03927.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2024/DSC03964.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2024/WhatsApp Image 2024-02-06 at 17.11.45.jpeg"
+                                                                   ],
+                                                       "nome":  "FINGER \u0026 SOMMER 2024",
+                                                       "totalImagens":  5,
+                                                       "servicos":  [
+                                                                        "Diversos"
+                                                                    ]
+                                                   },
+                     "LATINA":  {
+                                    "imagens":  [
+                                                    "/images/LATINA/DSC00455.JPG",
+                                                    "/images/LATINA/DSC00511.JPG",
+                                                    "/images/LATINA/DSC06229.JPG",
+                                                    "/images/LATINA/DSC09730.JPG",
+                                                    "/images/LATINA/IMG_6966.JPG"
+                                                ],
+                                    "nome":  "LATINA",
+                                    "totalImagens":  5,
+                                    "servicos":  [
+                                                     "Diversos"
+                                                 ]
+                                },
+                     "FKB":  {
+                                 "imagens":  [
+                                                 "/images/FKB/G0036439.JPG",
+                                                 "/images/FKB/WhatsApp Image 2022-08-09 at 17.36.06.jpeg",
+                                                 "/images/FKB/WhatsApp Image 2022-08-11 at 14.33.11 (7).jpeg"
+                                             ],
+                                 "nome":  "FKB",
+                                 "totalImagens":  3,
+                                 "servicos":  [
+                                                  "Diversos"
+                                              ]
+                             },
+                     "FINGER \u0026 SOMMER":  {
+                                                  "imagens":  [
+                                                                  "/images/FINGER \u0026 SOMMER/PONTE JAGUARIÚNA/Fotos/fotos fornecidas pelo roger/IMG-20191204-WA0042.jpg",
+                                                                  "/images/FINGER \u0026 SOMMER/PONTE JAGUARIÚNA/Fotos/fotos fornecidas pelo roger/IMG-20191204-WA0044.jpg",
+                                                                  "/images/FINGER \u0026 SOMMER/PONTE JAGUARIÚNA/Fotos/fotos fornecidas pelo roger/IMG-20191204-WA0046.jpg",
+                                                                  "/images/FINGER \u0026 SOMMER/PONTE JAGUARIÚNA/Fotos/fotos fornecidas pelo roger/IMG-20191204-WA0047.jpg",
+                                                                  "/images/FINGER \u0026 SOMMER/PONTE JAGUARIÚNA/Fotos/fotos fornecidas pelo roger/IMG-20191204-WA0053.jpg"
+                                                              ],
+                                                  "nome":  "FINGER \u0026 SOMMER",
+                                                  "totalImagens":  5,
+                                                  "servicos":  [
+                                                                   "RECUPERAÇÃO ESTRUTURAL"
+                                                               ]
+                                              },
+                     "SABESP":  {
+                                    "imagens":  [
+                                                    "/images/SABESP/DSC00838.JPG",
+                                                    "/images/SABESP/DSC00881.JPG",
+                                                    "/images/SABESP/DSC00915.JPG",
+                                                    "/images/SABESP/DSC07833.JPG",
+                                                    "/images/SABESP/DSC07845.JPG"
+                                                ],
+                                    "nome":  "SABESP",
+                                    "totalImagens":  5,
+                                    "servicos":  [
+                                                     "Diversos"
+                                                 ]
+                                },
+                     "YARA":  {
+                                  "imagens":  [
+                                                  "/images/YARA/IMG_3728.JPG",
+                                                  "/images/YARA/IMG_3729.JPG",
+                                                  "/images/YARA/IMG_3737.JPG"
+                                              ],
+                                  "nome":  "YARA",
+                                  "totalImagens":  3,
+                                  "servicos":  [
+                                                   "Diversos"
+                                               ]
+                              },
+                     "CHIP BELEM":  {
+                                        "imagens":  [
+                                                        "/images/CHIP BELEM/DSC08826.JPG",
+                                                        "/images/CHIP BELEM/DSC08831.JPG",
+                                                        "/images/CHIP BELEM/DSC08884.JPG"
+                                                    ],
+                                        "nome":  "CHIP BELEM",
+                                        "totalImagens":  3,
+                                        "servicos":  [
+                                                         "RECUPERAÇÃO ESTRUTURAL"
+                                                     ]
+                                    },
+                     "YARA 2025":  {
+                                       "imagens":  [
+                                                       "/images/YARA 2025/DSC00822.JPG",
+                                                       "/images/YARA 2025/DSC01606.JPG",
+                                                       "/images/YARA 2025/WhatsApp Image 2025-01-30 at 14.00.19.jpeg"
+                                                   ],
+                                       "nome":  "YARA 2025",
+                                       "totalImagens":  3,
+                                       "servicos":  [
+                                                        "Diversos"
+                                                    ]
+                                   },
+                     "VOTORANTIM ENERGIA":  {
+                                                "imagens":  [
+                                                                "/images/VOTORANTIM ENERGIA/DSC05489.JPG",
+                                                                "/images/VOTORANTIM ENERGIA/DSC05504.JPG",
+                                                                "/images/VOTORANTIM ENERGIA/DSC05518.JPG"
+                                                            ],
+                                                "nome":  "VOTORANTIM ENERGIA",
+                                                "totalImagens":  3,
+                                                "servicos":  [
+                                                                 "Diversos"
+                                                             ]
+                                            },
+                     "ULTRACARGO":  {
+                                        "imagens":  [
+                                                        "/images/ULTRACARGO/DSC08471.JPG",
+                                                        "/images/ULTRACARGO/DSC08474.JPG",
+                                                        "/images/ULTRACARGO/DSC08482.JPG",
+                                                        "/images/ULTRACARGO/DSC08506.JPG"
+                                                    ],
+                                        "nome":  "ULTRACARGO",
+                                        "totalImagens":  4,
+                                        "servicos":  [
+                                                         "Diversos"
+                                                     ]
+                                    },
+                     "CTG BRASIL":  {
+                                        "imagens":  [
+                                                        "/images/CTG BRASIL/DSC01374  Vista geral de montante.jpg",
+                                                        "/images/CTG BRASIL/DSC01377Vista do nicho de descida da comporta de manutenção das UGs.jpg",
+                                                        "/images/CTG BRASIL/DSC01400 Vista geral de jusante.jpg",
+                                                        "/images/CTG BRASIL/DSC01408  Vista geral de jusante.JPG"
+                                                    ],
+                                        "nome":  "CTG BRASIL",
+                                        "totalImagens":  4,
+                                        "servicos":  [
+                                                         "HIDROELÉTRICAS E BARRAGENS"
+                                                     ]
+                                    },
+                     "outro hd":  {
+                                      "imagens":  [
+                                                      "/images/outro hd/4SENGENHARIA/WhatsApp Image 2019-03-18 at 15.51.47.jpeg",
+                                                      "/images/outro hd/4SENGENHARIA/WhatsApp Image 2019-03-18 at 15.51.50.jpeg",
+                                                      "/images/outro hd/MAIRENGINEERING/DSC03281.jpg",
+                                                      "/images/outro hd/MAIRENGINEERING/DSC03378.jpg",
+                                                      "/images/outro hd/MAIRENGINEERING/DSC03434.jpg"
+                                                  ],
+                                      "nome":  "outro hd",
+                                      "totalImagens":  5,
+                                      "servicos":  [
+                                                       "Diversos"
+                                                   ]
+                                  },
+                     "PREFEITURA DE SANTOS":  {
+                                                  "imagens":  [
+                                                                  "/images/PREFEITURA DE SANTOS/WhatsApp Image 2020-07-24 at 13.59.59.jpeg",
+                                                                  "/images/PREFEITURA DE SANTOS/WhatsApp Image 2020-07-24 at 14.00.00.jpeg",
+                                                                  "/images/PREFEITURA DE SANTOS/WhatsApp Image 2020-07-24 at 14.22.47.jpeg"
+                                                              ],
+                                                  "nome":  "PREFEITURA DE SANTOS",
+                                                  "totalImagens":  3,
+                                                  "servicos":  [
+                                                                   "Diversos"
+                                                               ]
+                                              },
+                     "COPERSUCAR":  {
+                                        "imagens":  [
+                                                        "/images/COPERSUCAR/DSC01025.JPG"
+                                                    ],
+                                        "nome":  "COPERSUCAR",
+                                        "totalImagens":  1,
+                                        "servicos":  [
+                                                         "INSPEÇÃO E VISTORIA",
+                                                         "RECUPERAÇÃO ESTRUTURAL"
+                                                     ]
+                                    },
+                     "DOW":  {
+                                 "imagens":  [
+                                                 "/images/DOW/PIC00046.JPG",
+                                                 "/images/DOW/PIC00107.JPG",
+                                                 "/images/DOW/WhatsApp Image 2025-08-08 at 16.50.11 (4).jpeg"
+                                             ],
+                                 "nome":  "DOW",
+                                 "totalImagens":  3,
+                                 "servicos":  [
+                                                  "INSPEÇÃO E VISTORIA",
+                                                  "MERGULHO ESPECIALIZADO"
+                                              ]
+                             },
+                     "GUANHÃES ENERGIA":  {
+                                              "imagens":  [
+                                                              "/images/GUANHÃES ENERGIA/DSC08631.JPG",
+                                                              "/images/GUANHÃES ENERGIA/DSC08635.JPG",
+                                                              "/images/GUANHÃES ENERGIA/DSC08655.JPG",
+                                                              "/images/GUANHÃES ENERGIA/DSC08660.JPG"
+                                                          ],
+                                              "nome":  "GUANHÃES ENERGIA",
+                                              "totalImagens":  4,
+                                              "servicos":  [
+                                                               "Diversos"
+                                                           ]
+                                          },
+                     "FINGER \u0026 SOMMER 2022":  {
+                                                       "imagens":  [
+                                                                       "/images/FINGER \u0026 SOMMER 2022/DSC09393.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2022/DSC09403.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2022/G0036439.JPG",
+                                                                       "/images/FINGER \u0026 SOMMER 2022/GOPR6464.JPG"
+                                                                   ],
+                                                       "nome":  "FINGER \u0026 SOMMER 2022",
+                                                       "totalImagens":  4,
+                                                       "servicos":  [
+                                                                        "Diversos"
+                                                                    ]
+                                                   },
+                     "ARATU ENERGIA":  {
+                                           "imagens":  [
+                                                           "/images/ARATU ENERGIA/Cach Emas 25  Maio  2012 077.jpg",
+                                                           "/images/ARATU ENERGIA/DSC00020.JPG",
+                                                           "/images/ARATU ENERGIA/WhatsApp Image 2022-01-13 at 12.19.25.jpeg"
+                                                       ],
+                                           "nome":  "ARATU ENERGIA",
+                                           "totalImagens":  3,
+                                           "servicos":  [
+                                                            "HIDROELÉTRICAS E BARRAGENS"
+                                                        ]
+                                       },
+                     "AXXO CONSTRUTORA":  {
+                                              "imagens":  [
+                                                              "/images/AXXO CONSTRUTORA/BKFH0289.JPG",
+                                                              "/images/AXXO CONSTRUTORA/DORG0014.JPG",
+                                                              "/images/AXXO CONSTRUTORA/FBTW9202.JPG",
+                                                              "/images/AXXO CONSTRUTORA/KTQE2540.JPG",
+                                                              "/images/AXXO CONSTRUTORA/MMFU1134.JPG"
+                                                          ],
+                                              "nome":  "AXXO CONSTRUTORA",
+                                              "totalImagens":  5,
+                                              "servicos":  [
+                                                               "RECUPERAÇÃO ESTRUTURAL"
+                                                           ]
+                                          },
+                     "WAYPOINT":  {
+                                      "imagens":  [
+                                                      "/images/WAYPOINT/WhatsApp Image 2020-02-10 at 11.48.17.jpeg",
+                                                      "/images/WAYPOINT/WhatsApp Image 2020-02-10 at 11.48.18.jpeg"
+                                                  ],
+                                      "nome":  "WAYPOINT",
+                                      "totalImagens":  2,
+                                      "servicos":  [
+                                                       "Diversos"
+                                                   ]
+                                  },
+                     "TECNIPLAN 2023":  {
+                                            "imagens":  [
+                                                            "/images/TECNIPLAN 2023/DSC04601.JPG",
+                                                            "/images/TECNIPLAN 2023/DSC04610.JPG",
+                                                            "/images/TECNIPLAN 2023/DSC04659.JPG",
+                                                            "/images/TECNIPLAN 2023/DSC09471.JPG"
+                                                        ],
+                                            "nome":  "TECNIPLAN 2023",
+                                            "totalImagens":  4,
+                                            "servicos":  [
+                                                             "Diversos"
+                                                         ]
+                                        },
+                     "CTG 2025":  {
+                                      "imagens":  [
+                                                      "/images/CTG 2025/IMG-20251118-WA0016.jpg",
+                                                      "/images/CTG 2025/WhatsApp Image 2025-08-13 at 13.13.19.jpeg",
+                                                      "/images/CTG 2025/WhatsApp Image 2025-08-26 at 20.00.55.jpeg"
+                                                  ],
+                                      "nome":  "CTG 2025",
+                                      "totalImagens":  3,
+                                      "servicos":  [
+                                                       "HIDROELÉTRICAS E BARRAGENS"
+                                                   ]
+                                  },
+                     "ZORTEA":  {
+                                    "imagens":  [
+                                                    "/images/ZORTEA/DSC00325.JPG",
+                                                    "/images/ZORTEA/DSC00372.JPG",
+                                                    "/images/ZORTEA/DSC00388.JPG",
+                                                    "/images/ZORTEA/IMG_5707.JPG",
+                                                    "/images/ZORTEA/IMG_5766.JPG"
+                                                ],
+                                    "nome":  "ZORTEA",
+                                    "totalImagens":  5,
+                                    "servicos":  [
+                                                     "Diversos"
+                                                 ]
+                                },
+                     "DAE AMERICANA 2021":  {
+                                                "imagens":  [
+                                                                "/images/DAE AMERICANA 2021/WhatsApp Image 2021-01-12 at 13.47.05.jpeg",
+                                                                "/images/DAE AMERICANA 2021/WhatsApp Image 2021-01-12 at 13.47.06.jpeg",
+                                                                "/images/DAE AMERICANA 2021/WhatsApp Image 2021-01-12 at 13.47.07.jpeg"
+                                                            ],
+                                                "nome":  "DAE AMERICANA 2021",
+                                                "totalImagens":  3,
+                                                "servicos":  [
+                                                                 "TRATAMENTO DE ÁGUA"
+                                                             ]
+                                            },
+                     "CTG BRASIL 2023":  {
+                                             "imagens":  [
+                                                             "/images/CTG BRASIL 2023/DSC02856.JPG",
+                                                             "/images/CTG BRASIL 2023/WhatsApp Image 2023-05-23 at 16.45.03.jpeg",
+                                                             "/images/CTG BRASIL 2023/WhatsApp Image 2023-11-27 at 08.15.34.jpeg",
+                                                             "/images/CTG BRASIL 2023/WhatsApp Image 2023-11-27 at 08.15.41.jpeg"
+                                                         ],
+                                             "nome":  "CTG BRASIL 2023",
+                                             "totalImagens":  4,
+                                             "servicos":  [
+                                                              "HIDROELÉTRICAS E BARRAGENS"
+                                                          ]
+                                         },
+                     "IPT - INSTITUTO DE PESQUISAS TECNOLÓGICAS":  {
+                                                                       "imagens":  [
+                                                                                       "/images/IPT - INSTITUTO DE PESQUISAS TECNOLÓGICAS/DSC08666.JPG",
+                                                                                       "/images/IPT - INSTITUTO DE PESQUISAS TECNOLÓGICAS/DSC08980.JPG",
+                                                                                       "/images/IPT - INSTITUTO DE PESQUISAS TECNOLÓGICAS/DSC09052.JPG",
+                                                                                       "/images/IPT - INSTITUTO DE PESQUISAS TECNOLÓGICAS/DSC09115.JPG",
+                                                                                       "/images/IPT - INSTITUTO DE PESQUISAS TECNOLÓGICAS/DSC09148.JPG"
+                                                                                   ],
+                                                                       "nome":  "IPT - INSTITUTO DE PESQUISAS TECNOLÓGICAS",
+                                                                       "totalImagens":  5,
+                                                                       "servicos":  [
+                                                                                        "Diversos"
+                                                                                    ]
+                                                                   },
+                     "AXXO 2022":  {
+                                       "imagens":  [
+                                                       "/images/AXXO 2022/DSC01042.JPG",
+                                                       "/images/AXXO 2022/WhatsApp Image 2022-02-09 at 12.36.53.jpeg",
+                                                       "/images/AXXO 2022/WhatsApp Image 2022-02-10 at 12.56.52.jpeg"
+                                                   ],
+                                       "nome":  "AXXO 2022",
+                                       "totalImagens":  3,
+                                       "servicos":  [
+                                                        "RECUPERAÇÃO ESTRUTURAL"
+                                                    ]
+                                   },
+                     "CUTRALE":  {
+                                     "imagens":  [
+                                                     "/images/CUTRALE/DSC06682.JPG",
+                                                     "/images/CUTRALE/DSC08532.JPG",
+                                                     "/images/CUTRALE/DSC08674.JPG",
+                                                     "/images/CUTRALE/DSC08873.JPG",
+                                                     "/images/CUTRALE/DSC08939.JPG"
+                                                 ],
+                                     "nome":  "CUTRALE",
+                                     "totalImagens":  5,
+                                     "servicos":  [
+                                                      "INSPEÇÃO E VISTORIA",
+                                                      "RECUPERAÇÃO ESTRUTURAL"
+                                                  ]
+                                 },
+                     "ARATU GERAÇÃO":  {
+                                           "imagens":  [
+                                                           "/images/ARATU GERAÇÃO/WhatsApp Image 2024-02-16 at 11.41.39.jpeg",
+                                                           "/images/ARATU GERAÇÃO/WhatsApp Image 2024-03-15 at 07.39.51.jpeg"
+                                                       ],
+                                           "nome":  "ARATU GERAÇÃO",
+                                           "totalImagens":  2,
+                                           "servicos":  [
+                                                            "HIDROELÉTRICAS E BARRAGENS"
+                                                        ]
+                                       },
+                     "DT ENGENHARIA":  {
+                                           "imagens":  [
+                                                           "/images/DT ENGENHARIA/DSC01219.JPG",
+                                                           "/images/DT ENGENHARIA/DSC01223.JPG",
+                                                           "/images/DT ENGENHARIA/DSC01225.JPG"
+                                                       ],
+                                           "nome":  "DT ENGENHARIA",
+                                           "totalImagens":  3,
+                                           "servicos":  [
+                                                            "RECUPERAÇÃO ESTRUTURAL"
+                                                        ]
+                                       },
+                     "SAE - SANTO ANTÔNIO ENERGIA":  {
+                                                         "imagens":  [
+                                                                         "/images/SAE - SANTO ANTÔNIO ENERGIA/IMG-20210930-WA0040.jpg",
+                                                                         "/images/SAE - SANTO ANTÔNIO ENERGIA/WhatsApp Image 2022-09-21 at 09.52.57.jpeg",
+                                                                         "/images/SAE - SANTO ANTÔNIO ENERGIA/WhatsApp Image 2022-12-07 at 16.19.14.jpeg",
+                                                                         "/images/SAE - SANTO ANTÔNIO ENERGIA/WhatsApp Image 2022-12-07 at 16.19.22.jpeg",
+                                                                         "/images/SAE - SANTO ANTÔNIO ENERGIA/WhatsApp Image 2022-12-26 at 11.50.46.jpeg"
+                                                                     ],
+                                                         "nome":  "SAE - SANTO ANTÔNIO ENERGIA",
+                                                         "totalImagens":  5,
+                                                         "servicos":  [
+                                                                          "Diversos"
+                                                                      ]
+                                                     },
+                     "FKD VÁLVULAS":  {
+                                          "imagens":  [
+                                                          "/images/FKD VÁLVULAS/DSC04705.JPG",
+                                                          "/images/FKD VÁLVULAS/WhatsApp Image 2021-05-19 at 17.36.49.jpeg",
+                                                          "/images/FKD VÁLVULAS/WhatsApp Image 2021-05-19 at 17.36.52.jpeg"
+                                                      ],
+                                          "nome":  "FKD VÁLVULAS",
+                                          "totalImagens":  3,
+                                          "servicos":  [
+                                                           "Diversos"
+                                                       ]
+                                      },
+                     "PROJEL":  {
+                                    "imagens":  [
+                                                    "/images/PROJEL/004.jpg",
+                                                    "/images/PROJEL/DSC00561.JPG",
+                                                    "/images/PROJEL/DSC00695.JPG"
+                                                ],
+                                    "nome":  "PROJEL",
+                                    "totalImagens":  3,
+                                    "servicos":  [
+                                                     "Diversos"
+                                                 ]
+                                },
+                     "AGEO TERMINAIS":  {
+                                            "imagens":  [
+                                                            "/images/AGEO TERMINAIS/DSC00584.JPG",
+                                                            "/images/AGEO TERMINAIS/DSC01722.JPG",
+                                                            "/images/AGEO TERMINAIS/DSC01728.JPG",
+                                                            "/images/AGEO TERMINAIS/DSC01761.JPG",
+                                                            "/images/AGEO TERMINAIS/DSC01784.JPG"
+                                                        ],
+                                            "nome":  "AGEO TERMINAIS",
+                                            "totalImagens":  5,
+                                            "servicos":  [
+                                                             "INSPEÇÃO E VISTORIA",
+                                                             "RECUPERAÇÃO ESTRUTURAL"
+                                                         ]
+                                        },
+                     "SABESP 2024":  {
+                                         "imagens":  [
+                                                         "/images/SABESP 2024/DSC04501.JPG",
+                                                         "/images/SABESP 2024/WhatsApp Image 2024-06-19 at 09.14.02.jpeg",
+                                                         "/images/SABESP 2024/WhatsApp Image 2024-09-02 at 16.27.48.jpeg"
+                                                     ],
+                                         "nome":  "SABESP 2024",
+                                         "totalImagens":  3,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "SABESP 2025":  {
+                                         "imagens":  [
+                                                         "/images/SABESP 2025/DSC00873.JPG",
+                                                         "/images/SABESP 2025/DSC00884.JPG",
+                                                         "/images/SABESP 2025/PIC00072.JPG"
+                                                     ],
+                                         "nome":  "SABESP 2025",
+                                         "totalImagens":  3,
+                                         "servicos":  [
+                                                          "Diversos"
+                                                      ]
+                                     },
+                     "BRK AMBIENTAL 2022":  {
+                                                "imagens":  [
+                                                                "/images/BRK AMBIENTAL 2022/DSC09329.JPG",
+                                                                "/images/BRK AMBIENTAL 2022/DSC09330.JPG",
+                                                                "/images/BRK AMBIENTAL 2022/WhatsApp Image 2022-07-15 at 15.05.13.jpeg",
+                                                                "/images/BRK AMBIENTAL 2022/WhatsApp Image 2022-07-15 at 15.05.19.jpeg"
+                                                            ],
+                                                "nome":  "BRK AMBIENTAL 2022",
+                                                "totalImagens":  4,
+                                                "servicos":  [
+                                                                 "INSPEÇÃO E VISTORIA",
+                                                                 "TRATAMENTO DE ÁGUA"
+                                                             ]
+                                            },
+                     "IGARAPAVA ENERGIA 2023":  {
+                                                    "imagens":  [
+                                                                    "/images/IGARAPAVA ENERGIA 2023/DSC02021.JPG",
+                                                                    "/images/IGARAPAVA ENERGIA 2023/DSC02030.JPG",
+                                                                    "/images/IGARAPAVA ENERGIA 2023/WhatsApp Image 2023-10-23 at 08.29.10.jpeg"
+                                                                ],
+                                                    "nome":  "IGARAPAVA ENERGIA 2023",
+                                                    "totalImagens":  3,
+                                                    "servicos":  [
+                                                                     "Diversos"
+                                                                 ]
+                                                },
+                     "BRACELL":  {
+                                     "imagens":  [
+                                                     "/images/BRACELL/WhatsApp Image 2025-09-02 at 16.26.27.jpeg",
+                                                     "/images/BRACELL/WhatsApp Image 2025-09-03 at 15.32.24.jpeg",
+                                                     "/images/BRACELL/WhatsApp Image 2025-12-18 at 19.19.47.jpeg"
+                                                 ],
+                                     "nome":  "BRACELL",
+                                     "totalImagens":  3,
+                                     "servicos":  [
+                                                      "INSPEÇÃO E VISTORIA",
+                                                      "MERGULHO ESPECIALIZADO"
+                                                  ]
+                                 },
+                     "DAE AMERICA 2022":  {
+                                              "imagens":  [
+                                                              "/images/DAE AMERICA 2022/DSC04830.JPG",
+                                                              "/images/DAE AMERICA 2022/DSC04843.JPG",
+                                                              "/images/DAE AMERICA 2022/WhatsApp Image 2022-02-10 at 16.06.11.jpeg"
+                                                          ],
+                                              "nome":  "DAE AMERICA 2022",
+                                              "totalImagens":  3,
+                                              "servicos":  [
+                                                               "TRATAMENTO DE ÁGUA"
+                                                           ]
+                                          },
+                     "CGH SARDOÁ":  {
+                                        "imagens":  [
+                                                        "/images/CGH SARDOÁ/DSC06462.JPG",
+                                                        "/images/CGH SARDOÁ/WhatsApp Image 2024-03-27 at 15.18.12.jpeg",
+                                                        "/images/CGH SARDOÁ/WhatsApp Image 2024-04-25 at 15.13.19.jpeg"
+                                                    ],
+                                        "nome":  "CGH SARDOÁ",
+                                        "totalImagens":  3,
+                                        "servicos":  [
+                                                         "HIDROELÉTRICAS E BARRAGENS"
+                                                     ]
+                                    },
+                     "AGEO - COPAPE":  {
+                                           "imagens":  [
+                                                           "/images/AGEO - COPAPE/DSC08626.JPG",
+                                                           "/images/AGEO - COPAPE/DSC08627.JPG",
+                                                           "/images/AGEO - COPAPE/DSC08628.JPG",
+                                                           "/images/AGEO - COPAPE/DSC08629.JPG",
+                                                           "/images/AGEO - COPAPE/DSC09514.JPG"
+                                                       ],
+                                           "nome":  "AGEO - COPAPE",
+                                           "totalImagens":  5,
+                                           "servicos":  [
+                                                            "INSPEÇÃO E VISTORIA",
+                                                            "RECUPERAÇÃO ESTRUTURAL"
+                                                        ]
+                                       },
+                     "COFCO":  {
+                                   "imagens":  [
+                                                   "/images/COFCO/WhatsApp Image 2024-08-21 at 15.39.39.jpeg",
+                                                   "/images/COFCO/WhatsApp Image 2025-02-17 at 11.07.09.jpeg",
+                                                   "/images/COFCO/WhatsApp Image 2025-02-20 at 14.01.13.jpeg"
+                                               ],
+                                   "nome":  "COFCO",
+                                   "totalImagens":  3,
+                                   "servicos":  [
+                                                    "INSPEÇÃO E VISTORIA",
+                                                    "RECUPERAÇÃO ESTRUTURAL"
+                                                ]
+                               },
+                     "ECR-DERSA":  {
+                                       "imagens":  [
+                                                       "/images/ECR-DERSA/DSC09306.JPG",
+                                                       "/images/ECR-DERSA/DSC09316.JPG",
+                                                       "/images/ECR-DERSA/DSC09317.JPG",
+                                                       "/images/ECR-DERSA/DSC09319.JPG"
+                                                   ],
+                                       "nome":  "ECR-DERSA",
+                                       "totalImagens":  4,
+                                       "servicos":  [
+                                                        "INSPEÇÃO E VISTORIA",
+                                                        "RECUPERAÇÃO ESTRUTURAL"
+                                                    ]
+                                   },
+                     "BTP":  {
+                                 "nome":  "BTP",
+                                 "totalImagens":  7,
+                                 "imagens":  [
+                                                 "/images/BTP/WhatsApp Image 2024-03-27 at 12.12.40 (2).jpeg",
+                                                 "/images/BTP/WhatsApp Image 2024-03-27 at 12.14.48 (1).jpeg",
+                                                 "/images/BTP/WhatsApp Image 2024-03-27 at 14.26.24 (1).jpeg",
+                                                 "/images/BTP/WhatsApp Image 2024-03-28 at 14.33.21 (3).jpeg",
+                                                 "/images/BTP/WhatsApp Image 2024-10-16 at 13.13.58 (1).jpeg",
+                                                 "/images/BTP/WhatsApp Image 2024-11-30 at 14.34.31 (2).jpeg",
+                                                 "/images/BTP/WhatsApp Image 2024-12-04 at 14.40.39 (1).jpeg"
+                                             ],
+                                 "servicos":  [
+                                                  "DIVERSOS"
+                                              ]
+                             },
+                     "CLI":  {
+                                 "nome":  "CLI",
+                                 "totalImagens":  1,
+                                 "imagens":  [
+                                                 "/images/CLI/WhatsApp Image 2024-12-26 at 16.41.33 (3).jpeg"
+                                             ],
+                                 "servicos":  [
+                                                  "DIVERSOS"
+                                              ]
+                             },
+                     "AUREN ENERGIA 2025":  {
+                                                "nome":  "AUREN ENERGIA 2025",
+                                                "totalImagens":  3,
+                                                "imagens":  [
+                                                                "/images/AUREN ENERGIA 2025/WhatsApp Image 2026-01-09 at 10.30.44 (3).jpeg",
+                                                                "/images/AUREN ENERGIA 2025/WhatsApp Image 2026-01-09 at 10.30.45 (3).jpeg",
+                                                                "/images/AUREN ENERGIA 2025/WhatsApp Image 2026-01-09 at 10.34.53 (1).jpeg"
+                                                            ],
+                                                "servicos":  [
+                                                                 "DIVERSOS"
+                                                             ]
+                                            },
+                     "SABESP PINHEIROS":  {
+                                              "nome":  "SABESP PINHEIROS",
+                                              "totalImagens":  2,
+                                              "imagens":  [
+                                                              "/images/SABESP PINHEIROS/WhatsApp Image 2023-09-22 at 08.42.02 (1).jpeg",
+                                                              "/images/SABESP PINHEIROS/WhatsApp Image 2023-09-22 at 08.42.46 (1).jpeg"
+                                                          ],
+                                              "servicos":  [
+                                                               "DIVERSOS"
+                                                           ]
+                                          },
+                     "KSB BOMBAS HIDRAULICAS":  {
+                                                    "nome":  "KSB BOMBAS HIDRAULICAS",
+                                                    "totalImagens":  2,
+                                                    "imagens":  [
+                                                                    "/images/KSB BOMBAS HIDRAULICAS/20160819_104107 (Copy).jpg",
+                                                                    "/images/KSB BOMBAS HIDRAULICAS/DSC08809 (Copy).JPG"
+                                                                ],
+                                                    "servicos":  [
+                                                                     "DIVERSOS"
+                                                                 ]
+                                                },
+                     "IGARAPAVA":  {
+                                       "nome":  "IGARAPAVA",
+                                       "totalImagens":  3,
+                                       "imagens":  [
+                                                       "/images/IGARAPAVA/WhatsApp Image 2024-04-16 at 15.48.07 (2).jpeg",
+                                                       "/images/IGARAPAVA/WhatsApp Image 2024-05-20 at 09.01.41 (1).jpeg",
+                                                       "/images/IGARAPAVA/WhatsApp Image 2024-06-03 at 11.47.22 (3).jpeg"
+                                                   ],
+                                       "servicos":  [
+                                                        "DIVERSOS"
+                                                    ]
+                                   }
+                 },
+    "servicos":  {
+                     "RECUPERAÇÃO ESTRUTURAL":  [
+                                                    {
+                                                        "cliente":  "4S ENGENHARIA",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/4S ENGENHARIA/DSC07680.JPG",
+                                                                        "/images/4S ENGENHARIA/DSC07681.JPG",
+                                                                        "/images/4S ENGENHARIA/DSC07683.JPG",
+                                                                        "/images/4S ENGENHARIA/DSC07685.JPG",
+                                                                        "/images/4S ENGENHARIA/DSC07905.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AGEO",
+                                                        "totalImagens":  4,
+                                                        "imagens":  [
+                                                                        "/images/AGEO/DSC05015.JPG",
+                                                                        "/images/AGEO/DSC05195.JPG",
+                                                                        "/images/AGEO/DSC05201.JPG",
+                                                                        "/images/AGEO/DSC05286.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AGEO - COPAPE",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/AGEO - COPAPE/DSC08626.JPG",
+                                                                        "/images/AGEO - COPAPE/DSC08627.JPG",
+                                                                        "/images/AGEO - COPAPE/DSC08628.JPG",
+                                                                        "/images/AGEO - COPAPE/DSC08629.JPG",
+                                                                        "/images/AGEO - COPAPE/DSC09514.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AGEO 2024",
+                                                        "totalImagens":  1,
+                                                        "imagens":  [
+                                                                        "/images/AGEO 2024/WhatsApp Image 2024-05-29 at 14.41.08.jpeg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AGEO TERMINAIS",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/AGEO TERMINAIS/DSC00584.JPG",
+                                                                        "/images/AGEO TERMINAIS/DSC01722.JPG",
+                                                                        "/images/AGEO TERMINAIS/DSC01728.JPG",
+                                                                        "/images/AGEO TERMINAIS/DSC01761.JPG",
+                                                                        "/images/AGEO TERMINAIS/DSC01784.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AXXO",
+                                                        "totalImagens":  4,
+                                                        "imagens":  [
+                                                                        "/images/AXXO/DSC00671.JPG",
+                                                                        "/images/AXXO/DSC00674.JPG",
+                                                                        "/images/AXXO/DSC00676.JPG",
+                                                                        "/images/AXXO/DSC00684.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AXXO 2021",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/AXXO 2021/IMG_9095.JPG",
+                                                                        "/images/AXXO 2021/IMG_9105.JPG",
+                                                                        "/images/AXXO 2021/IMG_9149.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AXXO 2022",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/AXXO 2022/DSC01042.JPG",
+                                                                        "/images/AXXO 2022/WhatsApp Image 2022-02-09 at 12.36.53.jpeg",
+                                                                        "/images/AXXO 2022/WhatsApp Image 2022-02-10 at 12.56.52.jpeg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "AXXO CONSTRUTORA",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/AXXO CONSTRUTORA/BKFH0289.JPG",
+                                                                        "/images/AXXO CONSTRUTORA/DORG0014.JPG",
+                                                                        "/images/AXXO CONSTRUTORA/FBTW9202.JPG",
+                                                                        "/images/AXXO CONSTRUTORA/KTQE2540.JPG",
+                                                                        "/images/AXXO CONSTRUTORA/MMFU1134.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "BTP - BRASIL TERMINAL PORTUÁRIO",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC00605.JPG",
+                                                                        "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC00607.JPG",
+                                                                        "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01645.JPG",
+                                                                        "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01707.JPG",
+                                                                        "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01916.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CHIP BELEM",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/CHIP BELEM/DSC08826.JPG",
+                                                                        "/images/CHIP BELEM/DSC08831.JPG",
+                                                                        "/images/CHIP BELEM/DSC08884.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CLI SUL",
+                                                        "totalImagens":  2,
+                                                        "imagens":  [
+                                                                        "/images/CLI SUL/1.jpg",
+                                                                        "/images/CLI SUL/WhatsApp Image 2025-10-01 at 15.51.27.jpeg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CLUBE INTERNACIONAL DE REGATAS",
+                                                        "totalImagens":  4,
+                                                        "imagens":  [
+                                                                        "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-04-25 at 10.45.53.jpeg",
+                                                                        "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-04-25 at 10.45.56.jpeg",
+                                                                        "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-04-25 at 17.23.07.jpeg",
+                                                                        "/images/CLUBE INTERNACIONAL DE REGATAS/WhatsApp Image 2022-05-03 at 12.03.54.jpeg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CODESP",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/CODESP/defensa 03e.JPG",
+                                                                        "/images/CODESP/DSC00541.JPG",
+                                                                        "/images/CODESP/DSC00544.JPG",
+                                                                        "/images/CODESP/DSC07101.JPG",
+                                                                        "/images/CODESP/IMG_20181009_153306910_HDR.jpg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "COFCO",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/COFCO/WhatsApp Image 2024-08-21 at 15.39.39.jpeg",
+                                                                        "/images/COFCO/WhatsApp Image 2025-02-17 at 11.07.09.jpeg",
+                                                                        "/images/COFCO/WhatsApp Image 2025-02-20 at 14.01.13.jpeg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CONDOMINIO SWISS PARK",
+                                                        "totalImagens":  2,
+                                                        "imagens":  [
+                                                                        "/images/CONDOMINIO SWISS PARK/WhatsApp Image 2024-01-31 at 09.42.56.jpeg",
+                                                                        "/images/CONDOMINIO SWISS PARK/WhatsApp Image 2024-01-31 at 09.48.10 (4).jpeg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CONSORCIO PAULITEC",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/CONSORCIO PAULITEC/DSC00918.JPG",
+                                                                        "/images/CONSORCIO PAULITEC/DSC01066.JPG",
+                                                                        "/images/CONSORCIO PAULITEC/DSC01334.JPG",
+                                                                        "/images/CONSORCIO PAULITEC/DSC01379.JPG",
+                                                                        "/images/CONSORCIO PAULITEC/DSC01486.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "COPERSUCAR",
+                                                        "totalImagens":  1,
+                                                        "imagens":  [
+                                                                        "/images/COPERSUCAR/DSC01025.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CUTRALE",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/CUTRALE/DSC06682.JPG",
+                                                                        "/images/CUTRALE/DSC08532.JPG",
+                                                                        "/images/CUTRALE/DSC08674.JPG",
+                                                                        "/images/CUTRALE/DSC08873.JPG",
+                                                                        "/images/CUTRALE/DSC08939.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "CUTRALE ~2018",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/CUTRALE ~2018/DSC00288.JPG",
+                                                                        "/images/CUTRALE ~2018/DSC01365.JPG",
+                                                                        "/images/CUTRALE ~2018/GOPR1245.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "DT ENGENHARIA",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/DT ENGENHARIA/DSC01219.JPG",
+                                                                        "/images/DT ENGENHARIA/DSC01223.JPG",
+                                                                        "/images/DT ENGENHARIA/DSC01225.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "ECR-DERSA",
+                                                        "totalImagens":  4,
+                                                        "imagens":  [
+                                                                        "/images/ECR-DERSA/DSC09306.JPG",
+                                                                        "/images/ECR-DERSA/DSC09316.JPG",
+                                                                        "/images/ECR-DERSA/DSC09317.JPG",
+                                                                        "/images/ECR-DERSA/DSC09319.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "FARES \u0026 ASSOCIADOS ENGENHARIA",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00268.JPG",
+                                                                        "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00471.JPG",
+                                                                        "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00581.JPG",
+                                                                        "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00622.JPG",
+                                                                        "/images/FARES \u0026 ASSOCIADOS ENGENHARIA/DSC00832.JPG"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "FINGER \u0026 SOMMER",
+                                                        "totalImagens":  5,
+                                                        "imagens":  [
+                                                                        "/images/FINGER \u0026 SOMMER/IMG-20191204-WA0042.jpg",
+                                                                        "/images/FINGER \u0026 SOMMER/IMG-20191204-WA0044.jpg",
+                                                                        "/images/FINGER \u0026 SOMMER/IMG-20191204-WA0046.jpg",
+                                                                        "/images/FINGER \u0026 SOMMER/IMG-20191204-WA0047.jpg",
+                                                                        "/images/FINGER \u0026 SOMMER/IMG-20191204-WA0053.jpg"
+                                                                    ]
+                                                    }
+                                                ],
+                     "NAVIOS E PLATAFORMAS":  [
+                                                  {
+                                                      "cliente":  "CMA CGM",
+                                                      "totalImagens":  5,
+                                                      "imagens":  [
+                                                                      "/images/CMA CGM/LQPO7781.JPG",
+                                                                      "/images/CMA CGM/NKLS7183.JPG",
+                                                                      "/images/CMA CGM/TOVO1041.JPG",
+                                                                      "/images/CMA CGM/UYXQ5205.JPG",
+                                                                      "/images/CMA CGM/YLHT5300.JPG"
+                                                                  ]
+                                                  }
+                                              ],
+                     "HIDROELÉTRICAS E BARRAGENS":  [
+                                                        {
+                                                            "cliente":  "ALIANÇA ENERGIA",
+                                                            "totalImagens":  3,
+                                                            "imagens":  [
+                                                                            "/images/ALIANÇA ENERGIA/DSC09162.JPG",
+                                                                            "/images/ALIANÇA ENERGIA/DSC09196.JPG",
+                                                                            "/images/ALIANÇA ENERGIA/WhatsApp Image 2022-08-22 at 10.55.42.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "ALIANÇA ENERGIA 2023",
+                                                            "totalImagens":  3,
+                                                            "imagens":  [
+                                                                            "/images/ALIANÇA ENERGIA 2023/DSC02221.JPG",
+                                                                            "/images/ALIANÇA ENERGIA 2023/DSC02302.JPG",
+                                                                            "/images/ALIANÇA ENERGIA 2023/WhatsApp Image 2023-10-31 at 09.37.35.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "ALIANÇA ENERGIA 2024",
+                                                            "totalImagens":  2,
+                                                            "imagens":  [
+                                                                            "/images/ALIANÇA ENERGIA 2024/DSC04309.JPG",
+                                                                            "/images/ALIANÇA ENERGIA 2024/WhatsApp Image 2024-11-07 at 20.23.46.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "ARATU ENERGIA",
+                                                            "totalImagens":  3,
+                                                            "imagens":  [
+                                                                            "/images/ARATU ENERGIA/Cach Emas 25  Maio  2012 077.jpg",
+                                                                            "/images/ARATU ENERGIA/DSC00020.JPG",
+                                                                            "/images/ARATU ENERGIA/WhatsApp Image 2022-01-13 at 12.19.25.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "ARATU GERAÇÃO",
+                                                            "totalImagens":  2,
+                                                            "imagens":  [
+                                                                            "/images/ARATU GERAÇÃO/WhatsApp Image 2024-02-16 at 11.41.39.jpeg",
+                                                                            "/images/ARATU GERAÇÃO/WhatsApp Image 2024-03-15 at 07.39.51.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "AT\u0026T ENERGIA S.A",
+                                                            "totalImagens":  2,
+                                                            "imagens":  [
+                                                                            "/images/AT\u0026T ENERGIA S.A/WhatsApp Image 2021-11-29 at 10.35.44.jpeg",
+                                                                            "/images/AT\u0026T ENERGIA S.A/WhatsApp Image 2021-11-29 at 10.35.47.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "AUREN ENERGIA",
+                                                            "totalImagens":  2,
+                                                            "imagens":  [
+                                                                            "/images/AUREN ENERGIA/WhatsApp Image 2025-10-24 at 08.51.28.jpeg",
+                                                                            "/images/AUREN ENERGIA/WhatsApp Image 2025-11-03 at 17.19.52.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CAMARGO CORREA - FOZ DO CHAPECÓ",
+                                                            "totalImagens":  5,
+                                                            "imagens":  [
+                                                                            "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/CRHM7345.JPG",
+                                                                            "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/DSC09779.JPG",
+                                                                            "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/DSC09900.JPG",
+                                                                            "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/DSC09945.JPG",
+                                                                            "/images/CAMARGO CORREA - FOZ DO CHAPECÓ/IMG_1711.JPG"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CEMIG",
+                                                            "totalImagens":  5,
+                                                            "imagens":  [
+                                                                            "/images/CEMIG/DSC00699.JPG",
+                                                                            "/images/CEMIG/DSC00721.JPG",
+                                                                            "/images/CEMIG/DSC00725.JPG",
+                                                                            "/images/CEMIG/DSC00733.JPG",
+                                                                            "/images/CEMIG/DSC02431 (1600 x 1200).jpg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CGH CASCATA",
+                                                            "totalImagens":  2,
+                                                            "imagens":  [
+                                                                            "/images/CGH CASCATA/WhatsApp Image 2024-04-25 at 15.13.15.jpeg",
+                                                                            "/images/CGH CASCATA/WhatsApp Image 2024-04-25 at 15.13.19.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CGH SARDOÁ",
+                                                            "totalImagens":  3,
+                                                            "imagens":  [
+                                                                            "/images/CGH SARDOÁ/DSC06462.JPG",
+                                                                            "/images/CGH SARDOÁ/WhatsApp Image 2024-03-27 at 15.18.12.jpeg",
+                                                                            "/images/CGH SARDOÁ/WhatsApp Image 2024-04-25 at 15.13.19.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CTG 2024",
+                                                            "totalImagens":  1,
+                                                            "imagens":  [
+                                                                            "/images/CTG 2024/WhatsApp Image 2024-01-22 at 17.43.05.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CTG 2025",
+                                                            "totalImagens":  3,
+                                                            "imagens":  [
+                                                                            "/images/CTG 2025/IMG-20251118-WA0016.jpg",
+                                                                            "/images/CTG 2025/WhatsApp Image 2025-08-13 at 13.13.19.jpeg",
+                                                                            "/images/CTG 2025/WhatsApp Image 2025-08-26 at 20.00.55.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CTG BRASIL",
+                                                            "totalImagens":  4,
+                                                            "imagens":  [
+                                                                            "/images/CTG BRASIL/DSC01374  Vista geral de montante.jpg",
+                                                                            "/images/CTG BRASIL/DSC01377Vista do nicho de descida da comporta de manutenção das UGs.jpg",
+                                                                            "/images/CTG BRASIL/DSC01400 Vista geral de jusante.jpg",
+                                                                            "/images/CTG BRASIL/DSC01408  Vista geral de jusante.JPG"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CTG BRASIL 2022",
+                                                            "totalImagens":  5,
+                                                            "imagens":  [
+                                                                            "/images/CTG BRASIL 2022/1. UHE Chavantes aéreo.jpg",
+                                                                            "/images/CTG BRASIL 2022/WhatsApp Image 2022-07-07 at 16.33.46.jpeg",
+                                                                            "/images/CTG BRASIL 2022/WhatsApp Image 2022-11-16 at 10.46.52.jpeg",
+                                                                            "/images/CTG BRASIL 2022/WhatsApp Image 2022-11-22 at 11.54.18.jpeg",
+                                                                            "/images/CTG BRASIL 2022/WhatsApp Image 2022-11-22 at 11.54.26.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "CTG BRASIL 2023",
+                                                            "totalImagens":  4,
+                                                            "imagens":  [
+                                                                            "/images/CTG BRASIL 2023/DSC02856.JPG",
+                                                                            "/images/CTG BRASIL 2023/WhatsApp Image 2023-05-23 at 16.45.03.jpeg",
+                                                                            "/images/CTG BRASIL 2023/WhatsApp Image 2023-11-27 at 08.15.34.jpeg",
+                                                                            "/images/CTG BRASIL 2023/WhatsApp Image 2023-11-27 at 08.15.41.jpeg"
+                                                                        ]
+                                                        },
+                                                        {
+                                                            "cliente":  "ELEJOR",
+                                                            "totalImagens":  5,
+                                                            "imagens":  [
+                                                                            "/images/ELEJOR/DSC06273.JPG",
+                                                                            "/images/ELEJOR/DSC06290.JPG",
+                                                                            "/images/ELEJOR/DSC06297.JPG",
+                                                                            "/images/ELEJOR/WhatsApp Image 2021-09-09 at 09.10.56 (4).jpeg",
+                                                                            "/images/ELEJOR/WhatsApp Image 2021-09-09 at 09.18.11.jpeg"
+                                                                        ]
+                                                        }
+                                                    ],
+                     "TRATAMENTO DE ÁGUA":  [
+                                                {
+                                                    "cliente":  "BRK AMBIENTAL",
+                                                    "totalImagens":  5,
+                                                    "imagens":  [
+                                                                    "/images/BRK AMBIENTAL/DSC08528.JPG",
+                                                                    "/images/BRK AMBIENTAL/DSC08545.JPG",
+                                                                    "/images/BRK AMBIENTAL/DSC08552.JPG",
+                                                                    "/images/BRK AMBIENTAL/DSC08553.JPG",
+                                                                    "/images/BRK AMBIENTAL/DSC08557.JPG"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "BRK AMBIENTAL 2020",
+                                                    "totalImagens":  3,
+                                                    "imagens":  [
+                                                                    "/images/BRK AMBIENTAL 2020/DSC00063.JPG",
+                                                                    "/images/BRK AMBIENTAL 2020/IMG_6483.jpg",
+                                                                    "/images/BRK AMBIENTAL 2020/IMG_6486.jpg"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "BRK AMBIENTAL 2022",
+                                                    "totalImagens":  4,
+                                                    "imagens":  [
+                                                                    "/images/BRK AMBIENTAL 2022/DSC09329.JPG",
+                                                                    "/images/BRK AMBIENTAL 2022/DSC09330.JPG",
+                                                                    "/images/BRK AMBIENTAL 2022/WhatsApp Image 2022-07-15 at 15.05.13.jpeg",
+                                                                    "/images/BRK AMBIENTAL 2022/WhatsApp Image 2022-07-15 at 15.05.19.jpeg"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "BRK PORTO FERREIRA",
+                                                    "totalImagens":  1,
+                                                    "imagens":  [
+                                                                    "/images/BRK PORTO FERREIRA/WhatsApp Image 2023-11-07 at 13.15.24.jpeg"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "DAE",
+                                                    "totalImagens":  1,
+                                                    "imagens":  [
+                                                                    "/images/DAE/WhatsApp Image 2025-09-24 at 14.48.15.jpeg"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "DAE AMERICA 2022",
+                                                    "totalImagens":  3,
+                                                    "imagens":  [
+                                                                    "/images/DAE AMERICA 2022/DSC04830.JPG",
+                                                                    "/images/DAE AMERICA 2022/DSC04843.JPG",
+                                                                    "/images/DAE AMERICA 2022/WhatsApp Image 2022-02-10 at 16.06.11.jpeg"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "DAE AMERICANA",
+                                                    "totalImagens":  5,
+                                                    "imagens":  [
+                                                                    "/images/DAE AMERICANA/IMG_20190321_094413008_BURST000_COVER_TOP.jpg",
+                                                                    "/images/DAE AMERICANA/IMG_20190321_094419291.jpg",
+                                                                    "/images/DAE AMERICANA/IMG_20190321_095432685.jpg",
+                                                                    "/images/DAE AMERICANA/IMG_20190321_105650407.jpg",
+                                                                    "/images/DAE AMERICANA/IMG_20190321_111715258.jpg"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "DAE AMERICANA 2021",
+                                                    "totalImagens":  3,
+                                                    "imagens":  [
+                                                                    "/images/DAE AMERICANA 2021/WhatsApp Image 2021-01-12 at 13.47.05.jpeg",
+                                                                    "/images/DAE AMERICANA 2021/WhatsApp Image 2021-01-12 at 13.47.06.jpeg",
+                                                                    "/images/DAE AMERICANA 2021/WhatsApp Image 2021-01-12 at 13.47.07.jpeg"
+                                                                ]
+                                                },
+                                                {
+                                                    "cliente":  "DAE ~2018",
+                                                    "totalImagens":  3,
+                                                    "imagens":  [
+                                                                    "/images/DAE ~2018/DSC09299.JPG",
+                                                                    "/images/DAE ~2018/DSC09316.JPG",
+                                                                    "/images/DAE ~2018/DSC09335.JPG"
+                                                                ]
+                                                }
+                                            ],
+                     "INSPEÇÃO E VISTORIA":  [
+                                                 {
+                                                     "cliente":  "AGEO",
+                                                     "totalImagens":  4,
+                                                     "imagens":  [
+                                                                     "/images/AGEO/DSC05015.JPG",
+                                                                     "/images/AGEO/DSC05195.JPG",
+                                                                     "/images/AGEO/DSC05201.JPG",
+                                                                     "/images/AGEO/DSC05286.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "AGEO - COPAPE",
+                                                     "totalImagens":  5,
+                                                     "imagens":  [
+                                                                     "/images/AGEO - COPAPE/DSC08626.JPG",
+                                                                     "/images/AGEO - COPAPE/DSC08627.JPG",
+                                                                     "/images/AGEO - COPAPE/DSC08628.JPG",
+                                                                     "/images/AGEO - COPAPE/DSC08629.JPG",
+                                                                     "/images/AGEO - COPAPE/DSC09514.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "AGEO 2024",
+                                                     "totalImagens":  1,
+                                                     "imagens":  [
+                                                                     "/images/AGEO 2024/WhatsApp Image 2024-05-29 at 14.41.08.jpeg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "AGEO TERMINAIS",
+                                                     "totalImagens":  5,
+                                                     "imagens":  [
+                                                                     "/images/AGEO TERMINAIS/DSC00584.JPG",
+                                                                     "/images/AGEO TERMINAIS/DSC01722.JPG",
+                                                                     "/images/AGEO TERMINAIS/DSC01728.JPG",
+                                                                     "/images/AGEO TERMINAIS/DSC01761.JPG",
+                                                                     "/images/AGEO TERMINAIS/DSC01784.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "BRACELL",
+                                                     "totalImagens":  3,
+                                                     "imagens":  [
+                                                                     "/images/BRACELL/WhatsApp Image 2025-09-02 at 16.26.27.jpeg",
+                                                                     "/images/BRACELL/WhatsApp Image 2025-09-03 at 15.32.24.jpeg",
+                                                                     "/images/BRACELL/WhatsApp Image 2025-12-18 at 19.19.47.jpeg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "BRK AMBIENTAL",
+                                                     "totalImagens":  5,
+                                                     "imagens":  [
+                                                                     "/images/BRK AMBIENTAL/DSC08528.JPG",
+                                                                     "/images/BRK AMBIENTAL/DSC08545.JPG",
+                                                                     "/images/BRK AMBIENTAL/DSC08552.JPG",
+                                                                     "/images/BRK AMBIENTAL/DSC08553.JPG",
+                                                                     "/images/BRK AMBIENTAL/DSC08557.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "BRK AMBIENTAL 2020",
+                                                     "totalImagens":  3,
+                                                     "imagens":  [
+                                                                     "/images/BRK AMBIENTAL 2020/DSC00063.JPG",
+                                                                     "/images/BRK AMBIENTAL 2020/IMG_6483.jpg",
+                                                                     "/images/BRK AMBIENTAL 2020/IMG_6486.jpg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "BRK AMBIENTAL 2022",
+                                                     "totalImagens":  4,
+                                                     "imagens":  [
+                                                                     "/images/BRK AMBIENTAL 2022/DSC09329.JPG",
+                                                                     "/images/BRK AMBIENTAL 2022/DSC09330.JPG",
+                                                                     "/images/BRK AMBIENTAL 2022/WhatsApp Image 2022-07-15 at 15.05.13.jpeg",
+                                                                     "/images/BRK AMBIENTAL 2022/WhatsApp Image 2022-07-15 at 15.05.19.jpeg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "BRK PORTO FERREIRA",
+                                                     "totalImagens":  1,
+                                                     "imagens":  [
+                                                                     "/images/BRK PORTO FERREIRA/WhatsApp Image 2023-11-07 at 13.15.24.jpeg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "BTP - BRASIL TERMINAL PORTUÁRIO",
+                                                     "totalImagens":  5,
+                                                     "imagens":  [
+                                                                     "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC00605.JPG",
+                                                                     "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC00607.JPG",
+                                                                     "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01645.JPG",
+                                                                     "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01707.JPG",
+                                                                     "/images/BTP - BRASIL TERMINAL PORTUÁRIO/DSC01916.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "CMA CGM",
+                                                     "totalImagens":  5,
+                                                     "imagens":  [
+                                                                     "/images/CMA CGM/LQPO7781.JPG",
+                                                                     "/images/CMA CGM/NKLS7183.JPG",
+                                                                     "/images/CMA CGM/TOVO1041.JPG",
+                                                                     "/images/CMA CGM/UYXQ5205.JPG",
+                                                                     "/images/CMA CGM/YLHT5300.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "CODESP",
+                                                     "totalImagens":  5,
+                                                     "imagens":  [
+                                                                     "/images/CODESP/defensa 03e.JPG",
+                                                                     "/images/CODESP/DSC00541.JPG",
+                                                                     "/images/CODESP/DSC00544.JPG",
+                                                                     "/images/CODESP/DSC07101.JPG",
+                                                                     "/images/CODESP/IMG_20181009_153306910_HDR.jpg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "COFCO",
+                                                     "totalImagens":  3,
+                                                     "imagens":  [
+                                                                     "/images/COFCO/WhatsApp Image 2024-08-21 at 15.39.39.jpeg",
+                                                                     "/images/COFCO/WhatsApp Image 2025-02-17 at 11.07.09.jpeg",
+                                                                     "/images/COFCO/WhatsApp Image 2025-02-20 at 14.01.13.jpeg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "COPERSUCAR",
+                                                     "totalImagens":  1,
+                                                     "imagens":  [
+                                                                     "/images/COPERSUCAR/DSC01025.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "CUTRALE",
+                                                     "totalImagens":  5,
+                                                     "imagens":  [
+                                                                     "/images/CUTRALE/DSC06682.JPG",
+                                                                     "/images/CUTRALE/DSC08532.JPG",
+                                                                     "/images/CUTRALE/DSC08674.JPG",
+                                                                     "/images/CUTRALE/DSC08873.JPG",
+                                                                     "/images/CUTRALE/DSC08939.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "CUTRALE ~2018",
+                                                     "totalImagens":  3,
+                                                     "imagens":  [
+                                                                     "/images/CUTRALE ~2018/DSC00288.JPG",
+                                                                     "/images/CUTRALE ~2018/DSC01365.JPG",
+                                                                     "/images/CUTRALE ~2018/GOPR1245.JPG"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "DOW",
+                                                     "totalImagens":  3,
+                                                     "imagens":  [
+                                                                     "/images/DOW/PIC00046.JPG",
+                                                                     "/images/DOW/PIC00107.JPG",
+                                                                     "/images/DOW/WhatsApp Image 2025-08-08 at 16.50.11 (4).jpeg"
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "cliente":  "ECR-DERSA",
+                                                     "totalImagens":  4,
+                                                     "imagens":  [
+                                                                     "/images/ECR-DERSA/DSC09306.JPG",
+                                                                     "/images/ECR-DERSA/DSC09316.JPG",
+                                                                     "/images/ECR-DERSA/DSC09317.JPG",
+                                                                     "/images/ECR-DERSA/DSC09319.JPG"
+                                                                 ]
+                                                 }
+                                             ],
+                     "MERGULHO ESPECIALIZADO":  [
+                                                    {
+                                                        "cliente":  "BRACELL",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/BRACELL/WhatsApp Image 2025-09-02 at 16.26.27.jpeg",
+                                                                        "/images/BRACELL/WhatsApp Image 2025-09-03 at 15.32.24.jpeg",
+                                                                        "/images/BRACELL/WhatsApp Image 2025-12-18 at 19.19.47.jpeg"
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "cliente":  "DOW",
+                                                        "totalImagens":  3,
+                                                        "imagens":  [
+                                                                        "/images/DOW/PIC00046.JPG",
+                                                                        "/images/DOW/PIC00107.JPG",
+                                                                        "/images/DOW/WhatsApp Image 2025-08-08 at 16.50.11 (4).jpeg"
+                                                                    ]
+                                                    }
+                                                ]
+                 }
+}
