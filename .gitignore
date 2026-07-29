@@ -40,6 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# imagens grandes (não fazer commit - usar CDN ou storage externo)
-/public/images/
-/public/parceiros/
+# Imagens otimizadas - agora incluidas no Git (36 MB apos otimizacao)

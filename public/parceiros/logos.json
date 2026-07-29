@@ -1,0 +1,84 @@
+{
+  "parceiros": [
+    {
+      "nome": "Enercan - Campos Novos Energia S.A.",
+      "arquivo": "enercan.png",
+      "url": ""
+    },
+    {
+      "nome": "Louis Dreyfus Commodities",
+      "arquivo": "louis-dreyfus.png",
+      "url": ""
+    },
+    {
+      "nome": "Water Port S/A",
+      "arquivo": "water-port.png",
+      "url": ""
+    },
+    {
+      "nome": "COPEL",
+      "arquivo": "copel.png",
+      "url": ""
+    },
+    {
+      "nome": "TGG - Terminal de Granéis do Guarujá",
+      "arquivo": "tgg.png",
+      "url": ""
+    },
+    {
+      "nome": "Concreato Engenharia",
+      "arquivo": "concreato.png",
+      "url": ""
+    },
+    {
+      "nome": "Andrade Gutierrez",
+      "arquivo": "andrade-gutierrez.png",
+      "url": ""
+    },
+    {
+      "nome": "Galvão Engenharia",
+      "arquivo": "galvao.png",
+      "url": ""
+    },
+    {
+      "nome": "Porto de Santos - Autoridade Portuária",
+      "arquivo": "porto-santos.png",
+      "url": ""
+    },
+    {
+      "nome": "Prefeitura de Santos",
+      "arquivo": "prefeitura-santos.png",
+      "url": ""
+    },
+    {
+      "nome": "SABESP",
+      "arquivo": "sabesp.png",
+      "url": ""
+    },
+    {
+      "nome": "Galvão Engenharia (duplicado)",
+      "arquivo": "galvao-2.png",
+      "url": ""
+    },
+    {
+      "nome": "Libra Terminais",
+      "arquivo": "libra-terminais.png",
+      "url": ""
+    },
+    {
+      "nome": "TECON DI",
+      "arquivo": "tecon-di.png",
+      "url": ""
+    },
+    {
+      "nome": "Odebrecht",
+      "arquivo": "odebrecht.png",
+      "url": ""
+    },
+    {
+      "nome": "Petrobras BR",
+      "arquivo": "petrobras-br.png",
+      "url": ""
+    }
+  ]
+}

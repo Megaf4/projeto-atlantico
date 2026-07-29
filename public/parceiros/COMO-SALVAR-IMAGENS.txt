@@ -1,0 +1,83 @@
+╔═══════════════════════════════════════════════════════════════╗
+║  INSTRUÇÕES: Como Salvar os Logos dos Parceiros              ║
+╚═══════════════════════════════════════════════════════════════╝
+
+VOCÊ ENVIOU 16 IMAGENS PNG. PRECISA SALVÁ-LAS AQUI COM OS NOMES CORRETOS.
+
+📁 PASTA DE DESTINO:
+   C:\Users\henri\projeto-atlantico\atlantico\public\parceiros\
+
+📋 MAPEAMENTO DAS IMAGENS:
+
+Imagem 1  → Salvar como: enercan.png
+   (Logo azul/verde da Enercan - Campos Novos Energia S.A.)
+
+Imagem 2  → Salvar como: louis-dreyfus.png
+   (Logo azul da Louis Dreyfus Commodities)
+
+Imagem 3  → Salvar como: water-port.png
+   (Logo azul da Water Port S/A - Engenharia e Saneamento)
+
+Imagem 4  → Salvar como: copel.png
+   (Logo laranja da COPEL)
+
+Imagem 5  → Salvar como: tgg.png
+   (Logo TGG - Terminal de Granéis do Guarujá)
+
+Imagem 6  → Salvar como: concreato.png
+   (Logo preto/azul da Concreato Engenharia)
+
+Imagem 7  → Salvar como: andrade-gutierrez.png
+   (Logo azul da Andrade Gutierrez - AG)
+
+Imagem 8  → Salvar como: galvao.png
+   (Logo da Galvão Engenharia - com esfera verde/amarela)
+
+Imagem 9  → Salvar como: porto-santos.png
+   (Logo azul circular do Porto de Santos - Autoridade Portuária)
+
+Imagem 10 → Salvar como: prefeitura-santos.png
+   (Brasão verde da Prefeitura Municipal de Santos)
+
+Imagem 11 → Salvar como: sabesp.png
+   (Logo azul da SABESP - forma de S)
+
+Imagem 12 → DUPLICADA (pule esta, é o mesmo da imagem 8)
+
+Imagem 13 → Salvar como: libra-terminais.png
+   (Logo Libra Terminais)
+
+Imagem 14 → Salvar como: tecon-di.png
+   (Logo verde/azul TECON DI)
+
+Imagem 15 → Salvar como: odebrecht.png
+   (Logo vermelho ODEBRECHT)
+
+Imagem 16 → Salvar como: petrobras-br.png
+   (Logo Petrobras BR - verde/amarelo)
+
+
+🎯 COMO FAZER NO WINDOWS:
+
+1. Abra o Windows Explorer
+2. Navegue até: C:\Users\henri\projeto-atlantico\atlantico\public\parceiros\
+3. Encontre as 16 imagens PNG que você baixou/salvou
+4. Renomeie cada uma conforme a lista acima
+5. Arraste/cole todas na pasta parceiros\
+
+✅ DEPOIS DE SALVAR:
+
+1. Atualize a página /sobre-nos no navegador (F5)
+2. Role até a seção "Parceiros"
+3. Os logos devem aparecer no carrossel
+4. Se não aparecer, verifique:
+   - Nome do arquivo está EXATAMENTE como indicado (com .png)
+   - Arquivo está na pasta certa
+   - Não há espaços extras no nome
+
+🔍 VERIFICAÇÃO RÁPIDA:
+
+Execute no PowerShell/CMD dentro da pasta do projeto:
+   dir public\parceiros\*.png
+
+Deve listar 15 arquivos .png
