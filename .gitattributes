@@ -1,1 +1,1 @@
-public/images/** filter=lfs diff=lfs merge=lfs -text
+# Remover Git LFS - Vercel nao suporta no plano gratuito
