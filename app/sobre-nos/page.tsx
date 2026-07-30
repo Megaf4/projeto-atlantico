@@ -171,10 +171,12 @@ export default function SobreNosPage() {
           // Label com nome do cliente
           const clienteLabel = item.cliente ? '<div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3 opacity-0 group-hover:opacity-100 transition-opacity"><p class="text-white text-sm font-bold truncate">' + item.cliente + '</p></div>' : '';
           
-          // Usar API route para servir imagens com caracteres especiais
+          // Usar caminho direto das imagens (Vercel)
+          // Codificar corretamente o caminho para caracteres especiais
+          const encodedPath = item.url.split('/').map(part => encodeURIComponent(part)).join('/');
           const thumbnailUrl = item.type === 'vid' 
             ? 'https://via.placeholder.com/260x260/1a2b45/FFFFFF?text=Video' 
-            : '/api/image?path=' + encodeURIComponent(item.url);
+            : encodedPath;
           
           // ID único para debug
           const imgId = 'gallery-img-' + i + '-' + index;
