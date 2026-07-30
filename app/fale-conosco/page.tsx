@@ -141,7 +141,7 @@ export default function FaleConoscoPage() {
             </div>
             <div className="flex-grow flex items-center justify-center w-full">
               <div className="bg-[#F3F6FF]/95 backdrop-blur-sm rounded-xl p-6 md:p-10 shadow-2xl border border-white w-full max-w-2xl mt-4 animate-fadeInUp animate-delay-200">
-                <form action="https://formsubmit.co/christian.ricarth@ejemmackenzie.com.br" method="POST" className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <form action="https://formsubmit.co/atlanticosts@atlanticosts.com.br" method="POST" className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <input type="hidden" name="_captcha" value="false" />
                   <input type="hidden" name="_next" value="/fale-conosco?sucesso=true" />
                   
