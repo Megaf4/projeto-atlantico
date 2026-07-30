@@ -173,7 +173,7 @@ export default function SobreNosPage() {
           
           // Usar caminho direto das imagens (Vercel)
           // Codificar corretamente o caminho para caracteres especiais
-          const encodedPath = item.url.split('/').map(part => encodeURIComponent(part)).join('/');
+          const encodedPath = item.url.split('/').map((part: string) => encodeURIComponent(part)).join('/');
           const thumbnailUrl = item.type === 'vid' 
             ? 'https://via.placeholder.com/260x260/1a2b45/FFFFFF?text=Video' 
             : encodedPath;
