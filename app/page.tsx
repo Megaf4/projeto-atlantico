@@ -192,7 +192,7 @@ export default function Home() {
         {/* HERO PAGE */}
         <section id="hero" className="relative h-screen w-full flex items-end pb-20 justify-start px-6 md:px-10 pt-24">
           <div className="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1682687981974-c5ef2111640c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Mergulhador" className="w-full h-full object-cover animate-fadeIn" />
+            <img src="/images/hero-mergulhador.jpg" alt="Mergulhador" className="w-full h-full object-cover animate-fadeIn" />
             <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/40 to-transparent"></div>
           </div>
           <div className="relative z-10 max-w-4xl">
