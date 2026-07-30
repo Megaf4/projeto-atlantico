@@ -353,12 +353,7 @@ function obterImagemParaServico(servico, index) {
   }
   
   // Rotaciona através das imagens disponíveis
-  const imagemPath = imagens[index % imagens.length];
-  
-  // Codificar o caminho para caracteres especiais
-  const encodedPath = imagemPath.split('/').map(part => encodeURIComponent(part)).join('/');
-  
-  return encodedPath;
+  return imagens[index % imagens.length];
 }
 
 const dadosServicos = {};
