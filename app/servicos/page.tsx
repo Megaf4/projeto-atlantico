@@ -82,7 +82,7 @@ export default function ServicosPage() {
             </nav>
           </div>
           <div className="cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center" onClick={() => window.scrollTo(0,0)}>
-            <img src="ChatGPT Image 18_07_2026, 15_42_35.png" alt="Atlântico Logo" className="h-12 md:h-16 object-contain" />
+            <img src="/images/logo-atlatico-vector.png" alt="Atlântico Logo" className="h-12 md:h-16 object-contain" />
           </div>
         </header>
 
@@ -353,7 +353,12 @@ function obterImagemParaServico(servico, index) {
   }
   
   // Rotaciona através das imagens disponíveis
-  return imagens[index % imagens.length];
+  const imagemPath = imagens[index % imagens.length];
+  
+  // Codificar o caminho para caracteres especiais
+  const encodedPath = imagemPath.split('/').map(part => encodeURIComponent(part)).join('/');
+  
+  return encodedPath;
 }
 
 const dadosServicos = {};
@@ -423,7 +428,7 @@ function renderizarCards() {
     const card = document.createElement('div');
     card.className = "service-card snap-center shrink-0 w-[300px] md:w-[600px] h-[420px] md:h-[400px] bg-panel rounded-2xl border border-primary/30 flex shadow-2xl relative overflow-hidden card-transition group cursor-pointer";
     card.setAttribute('data-bg', cardData.imagem);
-    card.innerHTML = '<div class="w-1/3 md:w-1/2 h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105 z-20" style="background-image: url(' + "'" + cardData.imagem + "'" + ');"></div><div class="w-2/3 md:w-1/2 p-4 md:p-6 flex flex-col justify-between relative z-10 bg-panel overflow-hidden"><img src="ChatGPT Image 18_07_2026, 15_42_35.png" class="absolute top-1/2 left-1/2 -translate-y-1/2 w-[150%] max-w-none opacity-[0.05] grayscale pointer-events-none z-0 rotate-12" alt="Watermark"><div class="relative z-10 flex-1 flex flex-col overflow-hidden mb-4"><div class="normal-content flex flex-col"><h3 class="text-[13px] md:text-2xl font-bold uppercase leading-tight mb-2 md:mb-3 text-white">' + cardData.titulo + '</h3><p class="text-[11px] md:text-base text-gray-300 font-light leading-snug line-clamp-6 md:line-clamp-4 text-left md:text-justify">' + cardData.shortDesc + '</p></div><div class="expanded-content flex flex-col h-full overflow-hidden"><h4 class="text-[11px] md:text-base font-bold uppercase leading-tight mb-2 text-accent tracking-widest shrink-0">' + cardData.titulo + '</h4><p class="text-[10px] md:text-base text-gray-200 font-light leading-relaxed overflow-y-auto no-scrollbar text-left md:text-justify">' + cardData.longDesc + '</p></div></div><button class="btn-action relative z-10 bg-dark border border-primary hover:bg-accent hover:border-accent text-white py-2 md:py-3 rounded uppercase font-bold text-[11px] md:text-lg transition-colors w-full shadow-lg shrink-0 mt-auto">Saiba Mais</button></div>';
+    card.innerHTML = '<div class="w-1/3 md:w-1/2 h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105 z-20" style="background-image: url(' + "'" + cardData.imagem + "'" + ');"></div><div class="w-2/3 md:w-1/2 p-4 md:p-6 flex flex-col justify-between relative z-10 bg-panel overflow-hidden"><img src="/images/logo-atlatico-vector.png" class="absolute top-1/2 left-1/2 -translate-y-1/2 w-[150%] max-w-none opacity-[0.05] grayscale pointer-events-none z-0 rotate-12" alt="Watermark"><div class="relative z-10 flex-1 flex flex-col overflow-hidden mb-4"><div class="normal-content flex flex-col"><h3 class="text-[13px] md:text-2xl font-bold uppercase leading-tight mb-2 md:mb-3 text-white">' + cardData.titulo + '</h3><p class="text-[11px] md:text-base text-gray-300 font-light leading-snug line-clamp-6 md:line-clamp-4 text-left md:text-justify">' + cardData.shortDesc + '</p></div><div class="expanded-content flex flex-col h-full overflow-hidden"><h4 class="text-[11px] md:text-base font-bold uppercase leading-tight mb-2 text-accent tracking-widest shrink-0">' + cardData.titulo + '</h4><p class="text-[10px] md:text-base text-gray-200 font-light leading-relaxed overflow-y-auto no-scrollbar text-left md:text-justify">' + cardData.longDesc + '</p></div></div><button class="btn-action relative z-10 bg-dark border border-primary hover:bg-accent hover:border-accent text-white py-2 md:py-3 rounded uppercase font-bold text-[11px] md:text-lg transition-colors w-full shadow-lg shrink-0 mt-auto">Saiba Mais</button></div>';
     
     card.addEventListener('mouseenter', () => updateBackground(cardData.imagem));
     
