@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Configuração básica - warning é apenas informativo
+  // Configuracao basica para Vercel
 };
 
 export default nextConfig;
