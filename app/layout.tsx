@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Script from "next/script";
+import { LanguageProvider } from "./contexts/LanguageContext";
+import LanguageWelcomeModal from "./components/LanguageWelcomeModal";
 
 export const metadata: Metadata = {
   title: "Atlântico - Serviços Técnicos Submarinos",
@@ -21,7 +23,10 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet" />
       </head>
       <body className="h-full flex flex-col">
-        {children}
+        <LanguageProvider>
+          <LanguageWelcomeModal />
+          {children}
+        </LanguageProvider>
         <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
       </body>
     </html>

@@ -1,8 +1,10 @@
 'use client';
 
 import Script from 'next/script';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function FaleConoscoPage() {
+  const { t } = useLanguage();
   return (
     <>
       <style jsx global>{`
@@ -98,33 +100,33 @@ export default function FaleConoscoPage() {
                 <span className="w-7 md:w-8 h-[3px] md:h-1 bg-white block"></span>
               </button>
               <div id="dropdown" className="hidden absolute top-full left-0 mt-5 md:mt-6 w-56 bg-[#223A5E] shadow-2xl border border-dark rounded-b-md overflow-hidden flex-col z-50">
-                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">SOBRE NÓS</a>
-                <a href="/#servicos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">SERVIÇOS</a>
-                <a href="/fale-conosco" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">FALE CONOSCO</a>
-                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">CLIENTES</a>
-                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">PARCEIROS</a>
-                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium text-lg">GALERIA</a>
+                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.aboutUs}</a>
+                <a href="/#servicos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">{t.services.title.toUpperCase()}</a>
+                <a href="/fale-conosco" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">{t.contact.title.toUpperCase()}</a>
+                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.clients}</a>
+                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.partners}</a>
+                <a href="/" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium text-lg">{t.nav.gallery}</a>
               </div>
             </div>
             <nav className="flex gap-4 md:gap-8 font-bold tracking-wider text-sm md:text-xl uppercase items-center h-full mt-1 animate-fadeIn animate-delay-100">
               <div className="relative group">
-                <a href="/#servicos" className="hover:text-accent transition-colors text-white py-2 block">Serviços</a>
+                <a href="/#servicos" className="hover:text-accent transition-colors text-white py-2 block">{t.nav.services}</a>
                 <div id="desktop-dropdown-menu" className="absolute top-full left-0 hidden md:group-hover:block dropdown-bridge z-50">
                   <div className="w-72 bg-[#15253F] shadow-2xl border border-dark rounded-md overflow-hidden flex flex-col">
-                    <a href="/?servico=Recuperação Estrutural#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Recuperação Estrutural</a>
-                    <a href="/?servico=Navios e Plataformas#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Navios e Plataformas</a>
-                    <a href="/?servico=Levantamento e Registro#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Levantamento e Registro</a>
-                    <a href="/?servico=Hidroelétricas e Barragens#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Hidroelétricas e Barragens</a>
-                    <a href="/?servico=Inspeção e Vistoria#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Inspeção e Vistoria</a>
-                    <a href="/?servico=Dragagem e Sondagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Dragagem e Sondagem</a>
-                    <a href="/?servico=Resgate e Salvatagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Resgate e Salvatagem</a>
-                    <a href="/?servico=Mergulho Especializado#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Mergulho Especializado</a>
-                    <a href="/?servico=Dutos e Cabos Submarinos#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Dutos e Cabos Submarinos</a>
-                    <a href="/?servico=Tratamento de Água#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium text-sm uppercase tracking-wide">Tratamento de Água</a>
+                    <a href="/?servico=Recuperação Estrutural#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.structural}</a>
+                    <a href="/?servico=Navios e Plataformas#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.ships}</a>
+                    <a href="/?servico=Levantamento e Registro#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.survey}</a>
+                    <a href="/?servico=Hidroelétricas e Barragens#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.hydroelectric}</a>
+                    <a href="/?servico=Inspeção e Vistoria#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.inspection}</a>
+                    <a href="/?servico=Dragagem e Sondagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.dredging}</a>
+                    <a href="/?servico=Resgate e Salvatagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.rescue}</a>
+                    <a href="/?servico=Mergulho Especializado#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.diving}</a>
+                    <a href="/?servico=Dutos e Cabos Submarinos#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.pipelines}</a>
+                    <a href="/?servico=Tratamento de Água#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium text-sm uppercase tracking-wide">{t.services.categories.water}</a>
                   </div>
                 </div>
               </div>
-              <a href="/fale-conosco" className="hover:text-accent transition-colors text-accent py-2 block">Fale Conosco</a>
+              <a href="/fale-conosco" className="hover:text-accent transition-colors text-accent py-2 block">{t.nav.contactUs}</a>
             </nav>
           </div>
           <div className="cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center animate-fadeIn animate-delay-200" onClick={() => window.location.href='/'}>
@@ -137,7 +139,7 @@ export default function FaleConoscoPage() {
           <div className="absolute inset-0 bg-dark/30"></div>
           <div className="relative z-10 w-full max-w-[1400px] mx-auto flex flex-col h-full mt-8 md:mt-12">
             <div className="bg-[#1a2b45] inline-block px-6 md:px-8 py-2 rounded-t-xl rounded-br-xl mb-6 shadow-lg border border-primary/50 self-start ml-2 md:ml-10 animate-fadeInUp">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">Fale Conosco</h2>
+              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">{t.contact.title}</h2>
             </div>
             <div className="flex-grow flex items-center justify-center w-full">
               <div className="bg-[#F3F6FF]/95 backdrop-blur-sm rounded-xl p-6 md:p-10 shadow-2xl border border-white w-full max-w-2xl mt-4 animate-fadeInUp animate-delay-200">
@@ -149,7 +151,7 @@ export default function FaleConoscoPage() {
                     <input 
                       type="text" 
                       name="Empresa" 
-                      placeholder="NOME DA EMPRESA" 
+                      placeholder={t.contact.form.companyName}
                       required 
                       className="w-full p-4 rounded-md font-bold text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     />
@@ -159,7 +161,7 @@ export default function FaleConoscoPage() {
                     <input 
                       type="text" 
                       name="Nome" 
-                      placeholder="SEU NOME" 
+                      placeholder={t.contact.form.yourName}
                       required 
                       className="w-full p-4 rounded-md font-bold text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     />
@@ -169,7 +171,7 @@ export default function FaleConoscoPage() {
                     <input 
                       type="text" 
                       name="Site" 
-                      placeholder="SITE DA EMPRESA" 
+                      placeholder={t.contact.form.companySite}
                       className="w-full p-4 rounded-md font-bold text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     />
                   </div>
@@ -178,7 +180,7 @@ export default function FaleConoscoPage() {
                     <input 
                       type="email" 
                       name="Email" 
-                      placeholder="SEU EMAIL" 
+                      placeholder={t.contact.form.yourEmail}
                       required 
                       className="w-full p-4 rounded-md font-bold text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     />
@@ -190,13 +192,13 @@ export default function FaleConoscoPage() {
                       defaultValue=""
                       className="select-custom w-full p-4 rounded-md font-bold text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     >
-                      <option value="" disabled>ESTADO</option>
-                      <option value="SP">São Paulo</option>
-                      <option value="RJ">Rio de Janeiro</option>
-                      <option value="ES">Espírito Santo</option>
-                      <option value="PR">Paraná</option>
-                      <option value="SC">Santa Catarina</option>
-                      <option value="Outros">Outros</option>
+                      <option value="" disabled>{t.contact.form.state}</option>
+                      <option value="SP">{t.contact.form.states.sp}</option>
+                      <option value="RJ">{t.contact.form.states.rj}</option>
+                      <option value="ES">{t.contact.form.states.es}</option>
+                      <option value="PR">{t.contact.form.states.pr}</option>
+                      <option value="SC">{t.contact.form.states.sc}</option>
+                      <option value="Outros">{t.contact.form.states.others}</option>
                     </select>
                   </div>
                   
@@ -204,7 +206,7 @@ export default function FaleConoscoPage() {
                     <input 
                       type="tel" 
                       name="Celular" 
-                      placeholder="SEU CELULAR" 
+                      placeholder={t.contact.form.phone}
                       className="w-full p-4 rounded-md font-bold text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     />
                   </div>
@@ -213,7 +215,7 @@ export default function FaleConoscoPage() {
                     <input 
                       type="text" 
                       name="Cidade" 
-                      placeholder="CIDADE" 
+                      placeholder={t.contact.form.city}
                       className="w-full p-4 rounded-md font-bold text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     />
                   </div>
@@ -225,18 +227,18 @@ export default function FaleConoscoPage() {
                       defaultValue=""
                       className="select-custom w-full p-4 rounded-md font-bold text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary shadow-sm bg-white border border-gray-200"
                     >
-                      <option value="" disabled>TIPO DE SERVIÇO</option>
-                      <option value="Recuperação Estrutural">Recuperação Estrutural</option>
-                      <option value="Navios e Plataformas">Navios e Plataformas</option>
-                      <option value="Levantamento e Registro">Levantamento e Registro</option>
-                      <option value="Hidroelétricas e Barragens">Hidroelétricas e Barragens</option>
-                      <option value="Inspeção e Vistoria">Inspeção e Vistoria</option>
-                      <option value="Dragagem e Sondagem">Dragagem e Sondagem</option>
-                      <option value="Resgate e Salvatagem">Resgate e Salvatagem</option>
-                      <option value="Mergulho Especializado">Mergulho Especializado</option>
-                      <option value="Dutos e Cabos Submarinos">Dutos e Cabos Submarinos</option>
-                      <option value="Tratamento de Água">Tratamento de Água</option>
-                      <option value="Outros">Outros</option>
+                      <option value="" disabled>{t.contact.form.serviceType}</option>
+                      <option value="Recuperação Estrutural">{t.services.categories.structural}</option>
+                      <option value="Navios e Plataformas">{t.services.categories.ships}</option>
+                      <option value="Levantamento e Registro">{t.services.categories.survey}</option>
+                      <option value="Hidroelétricas e Barragens">{t.services.categories.hydroelectric}</option>
+                      <option value="Inspeção e Vistoria">{t.services.categories.inspection}</option>
+                      <option value="Dragagem e Sondagem">{t.services.categories.dredging}</option>
+                      <option value="Resgate e Salvatagem">{t.services.categories.rescue}</option>
+                      <option value="Mergulho Especializado">{t.services.categories.diving}</option>
+                      <option value="Dutos e Cabos Submarinos">{t.services.categories.pipelines}</option>
+                      <option value="Tratamento de Água">{t.services.categories.water}</option>
+                      <option value="Outros">{t.contact.form.others}</option>
                     </select>
                   </div>
                   
@@ -245,7 +247,7 @@ export default function FaleConoscoPage() {
                       type="submit" 
                       className="bg-light hover:bg-blue-400 text-white font-bold py-3 px-12 rounded-md transition-colors text-lg md:text-xl shadow-md w-full md:w-auto"
                     >
-                      ENVIAR
+                      {t.contact.form.submit}
                     </button>
                   </div>
                 </form>
