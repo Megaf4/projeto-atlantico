@@ -9,10 +9,10 @@ export default function LanguageWelcomeModal() {
   const { setLocale } = useLanguage();
 
   useEffect(() => {
-    // Verifica se o usuário já escolheu um idioma antes
-    const hasChosenLanguage = localStorage.getItem('languageChosen');
+    // Verifica se o usuário já escolheu um idioma NESTA SESSÃO
+    const hasChosenLanguageThisSession = sessionStorage.getItem('languageChosenThisSession');
     
-    if (!hasChosenLanguage) {
+    if (!hasChosenLanguageThisSession) {
       // Pequeno delay para melhor UX
       setTimeout(() => {
         setIsOpen(true);
@@ -22,7 +22,8 @@ export default function LanguageWelcomeModal() {
 
   const handleLanguageChoice = (locale: Locale) => {
     setLocale(locale);
-    localStorage.setItem('languageChosen', 'true');
+    // Marca como escolhido apenas para esta sessão (não persiste entre abas/fechamento)
+    sessionStorage.setItem('languageChosenThisSession', 'true');
     setIsOpen(false);
   };
 

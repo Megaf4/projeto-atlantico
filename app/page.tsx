@@ -2,8 +2,11 @@
 
 import Script from 'next/script';
 import { useEffect } from 'react';
+import { useLanguage } from './contexts/LanguageContext';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 export default function Home() {
+  const { t } = useLanguage();
   return (
     <>
       <style jsx global>{`
@@ -155,37 +158,40 @@ export default function Home() {
                 <span className="w-7 md:w-8 h-[3px] md:h-1 bg-white block"></span>
               </button>
               <div id="dropdown" className="hidden absolute top-full left-0 mt-5 md:mt-6 w-56 bg-[#223A5E] shadow-2xl border border-dark rounded-b-md overflow-hidden flex-col z-50">
-                <a href="/sobre-nos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">SOBRE NÓS</a>
-                <a href="#servicos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">SERVIÇOS</a>
-                <a href="/fale-conosco" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">FALE CONOSCO</a>
-                <a href="/sobre-nos#clientes" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">CLIENTES</a>
-                <a href="/sobre-nos#parceiros" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">PARCEIROS</a>
-                <a href="/sobre-nos#galeria" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium text-lg">GALERIA</a>
+                <a href="/sobre-nos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.aboutUs}</a>
+                <a href="#servicos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">{t.nav.services.toUpperCase()}</a>
+                <a href="/fale-conosco" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">{t.nav.contactUs}</a>
+                <a href="/sobre-nos#clientes" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.clients}</a>
+                <a href="/sobre-nos#parceiros" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.partners}</a>
+                <a href="/sobre-nos#galeria" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium text-lg">{t.nav.gallery}</a>
               </div>
             </div>
             <nav className="flex gap-4 md:gap-8 font-bold tracking-wider text-sm md:text-xl uppercase items-center h-full mt-1 animate-fadeIn animate-delay-100">
               <div className="relative group">
-                <a href="#servicos" className="hover:text-accent transition-colors text-white py-2 block">Serviços</a>
+                <a href="#servicos" className="hover:text-accent transition-colors text-white py-2 block">{t.nav.services}</a>
                 <div id="desktop-dropdown-menu" className="absolute top-full left-0 hidden md:group-hover:block dropdown-bridge z-50">
                   <div className="w-72 bg-[#15253F] shadow-2xl border border-dark rounded-md overflow-hidden flex flex-col">
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Recuperação Estrutural">Recuperação Estrutural</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Navios e Plataformas">Navios e Plataformas</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Levantamento e Registro">Levantamento e Registro</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Hidroelétricas e Barragens">Hidroelétricas e Barragens</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Inspeção e Vistoria">Inspeção e Vistoria</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Dragagem e Sondagem">Dragagem e Sondagem</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Resgate e Salvatagem">Resgate e Salvatagem</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Mergulho Especializado">Mergulho Especializado</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Dutos e Cabos Submarinos">Dutos e Cabos Submarinos</button>
-                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium text-sm uppercase tracking-wide" data-service="Tratamento de Água">Tratamento de Água</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Recuperação Estrutural">{t.services.categories.structural}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Navios e Plataformas">{t.services.categories.ships}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Levantamento e Registro">{t.services.categories.survey}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Hidroelétricas e Barragens">{t.services.categories.hydroelectric}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Inspeção e Vistoria">{t.services.categories.inspection}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Dragagem e Sondagem">{t.services.categories.dredging}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Resgate e Salvatagem">{t.services.categories.rescue}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Mergulho Especializado">{t.services.categories.diving}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide" data-service="Dutos e Cabos Submarinos">{t.services.categories.pipelines}</button>
+                    <button className="dropdown-service-link text-left px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium text-sm uppercase tracking-wide" data-service="Tratamento de Água">{t.services.categories.water}</button>
                   </div>
                 </div>
               </div>
-              <a href="/fale-conosco" className="hover:text-accent transition-colors text-white py-2 block">Fale Conosco</a>
+              <a href="/fale-conosco" className="hover:text-accent transition-colors text-white py-2 block">{t.nav.contactUs}</a>
             </nav>
           </div>
           <div className="cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center animate-fadeIn animate-delay-200" onClick={() => window.scrollTo(0,0)}>
             <img src="/images/logo-atlatico-vector.png" alt="Atlântico Logo" className="h-12 md:h-16 object-contain" />
+          </div>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
           </div>
         </header>
 
@@ -198,7 +204,7 @@ export default function Home() {
           </div>
           <div className="relative z-10 max-w-4xl">
             <img src="/images/logo-top.png" alt="Atlântico" className="w-full max-w-3xl h-auto mb-4 animate-slideInLeft" />
-            <p className="text-lg md:text-2xl font-light tracking-widest text-gray-300 animate-slideInLeft animate-delay-200">Serviços Técnicos Submarinos</p>
+            <p className="text-lg md:text-2xl font-light tracking-widest text-gray-300 animate-slideInLeft animate-delay-200">{t.hero.subtitle}</p>
           </div>
         </section>
 
@@ -209,7 +215,7 @@ export default function Home() {
           </div>
           <div className="relative z-10 w-full max-w-[1400px] px-2 md:px-4 flex flex-col h-full">
             <div className="bg-[#1a2b45] inline-block px-6 md:px-8 py-2 rounded-t-xl rounded-br-xl mb-6 shadow-lg border border-primary/50 self-start ml-2 md:ml-10 animate-fadeInUp">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">Nossos Serviços</h2>
+              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">{t.services.title}</h2>
             </div>
             <div id="categories-container" className="grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-3 mb-8 px-2 md:px-10 w-full animate-fadeInUp animate-delay-200">
             </div>
@@ -248,7 +254,7 @@ export default function Home() {
               <span className="font-bold text-sm md:text-lg">atlanticosts@atlanticosts.com.br</span>
             </a>
           </div>
-          <div className="text-center mt-8 text-xs text-gray-500">&copy; 2026 Atlântico Serviços Técnicos Submarinos. Todos os direitos reservados.</div>
+          <div className="text-center mt-8 text-xs text-gray-500">{t.footer.copyright}</div>
         </footer>
       </div>
 

@@ -2,8 +2,11 @@
 
 import Script from 'next/script';
 import { useEffect } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 
 export default function SobreNosPage() {
+  const { t } = useLanguage();
   useEffect(() => {
     const timer = setTimeout(async () => {
       // 1. Menu Hamburguer
@@ -406,37 +409,40 @@ export default function SobreNosPage() {
                 <span className="w-7 md:w-8 h-[3px] md:h-1 bg-white block"></span>
               </button>
               <div id="dropdown" className="hidden absolute top-full left-0 mt-5 md:mt-6 w-56 bg-[#223A5E] shadow-2xl border border-dark rounded-b-md overflow-hidden flex-col z-50">
-                <a href="/sobre-nos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">SOBRE NÓS</a>
-                <a href="/#servicos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">SERVIÇOS</a>
-                <a href="/fale-conosco" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">FALE CONOSCO</a>
-                <a href="/sobre-nos#clientes" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">CLIENTES</a>
-                <a href="/sobre-nos#parceiros" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">PARCEIROS</a>
-                <a href="/sobre-nos#galeria" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium text-lg">GALERIA</a>
+                <a href="/sobre-nos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.aboutUs}</a>
+                <a href="/#servicos" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">{t.nav.services.toUpperCase()}</a>
+                <a href="/fale-conosco" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg md:hidden">{t.nav.contactUs}</a>
+                <a href="/sobre-nos#clientes" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.clients}</a>
+                <a href="/sobre-nos#parceiros" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium border-b border-dark/20 text-lg">{t.nav.partners}</a>
+                <a href="/sobre-nos#galeria" className="mobile-link px-5 py-4 hover:bg-[#15253F] hover:text-accent transition-colors font-medium text-lg">{t.nav.gallery}</a>
               </div>
             </div>
             <nav className="flex gap-4 md:gap-8 font-bold tracking-wider text-sm md:text-xl uppercase items-center h-full mt-1 animate-fadeIn animate-delay-100">
               <div className="relative group">
-                <a href="/#servicos" className="hover:text-accent transition-colors text-white py-2 block">Serviços</a>
+                <a href="/#servicos" className="hover:text-accent transition-colors text-white py-2 block">{t.nav.services}</a>
                 <div id="desktop-dropdown-menu" className="absolute top-full left-0 hidden md:group-hover:block dropdown-bridge z-50">
                   <div className="w-72 bg-[#15253F] shadow-2xl border border-dark rounded-md overflow-hidden flex flex-col">
-                    <a href="/?servico=Recuperação Estrutural#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Recuperação Estrutural</a>
-                    <a href="/?servico=Navios e Plataformas#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Navios e Plataformas</a>
-                    <a href="/?servico=Levantamento e Registro#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Levantamento e Registro</a>
-                    <a href="/?servico=Hidroelétricas e Barragens#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Hidroelétricas e Barragens</a>
-                    <a href="/?servico=Inspeção e Vistoria#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Inspeção e Vistoria</a>
-                    <a href="/?servico=Dragagem e Sondagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Dragagem e Sondagem</a>
-                    <a href="/?servico=Resgate e Salvatagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Resgate e Salvatagem</a>
-                    <a href="/?servico=Mergulho Especializado#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Mergulho Especializado</a>
-                    <a href="/?servico=Dutos e Cabos Submarinos#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">Dutos e Cabos Submarinos</a>
-                    <a href="/?servico=Tratamento de Água#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium text-sm uppercase tracking-wide">Tratamento de Água</a>
+                    <a href="/?servico=Recuperação Estrutural#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.structural}</a>
+                    <a href="/?servico=Navios e Plataformas#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.ships}</a>
+                    <a href="/?servico=Levantamento e Registro#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.survey}</a>
+                    <a href="/?servico=Hidroelétricas e Barragens#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.hydroelectric}</a>
+                    <a href="/?servico=Inspeção e Vistoria#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.inspection}</a>
+                    <a href="/?servico=Dragagem e Sondagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.dredging}</a>
+                    <a href="/?servico=Resgate e Salvatagem#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.rescue}</a>
+                    <a href="/?servico=Mergulho Especializado#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.diving}</a>
+                    <a href="/?servico=Dutos e Cabos Submarinos#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium border-b border-dark/50 text-sm uppercase tracking-wide">{t.services.categories.pipelines}</a>
+                    <a href="/?servico=Tratamento de Água#servicos" className="dropdown-service-link text-left block w-full px-5 py-3 hover:bg-[#223A5E] hover:text-accent transition-colors font-medium text-sm uppercase tracking-wide">{t.services.categories.water}</a>
                   </div>
                 </div>
               </div>
-              <a href="/fale-conosco" className="hover:text-accent transition-colors text-white py-2 block">Fale Conosco</a>
+              <a href="/fale-conosco" className="hover:text-accent transition-colors text-white py-2 block">{t.nav.contactUs}</a>
             </nav>
           </div>
           <div className="cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center animate-fadeIn animate-delay-200" onClick={() => window.location.href='/'}>
             <img src="/images/logo-atlatico-vector.png" alt="Atlântico Logo" className="h-12 md:h-16 object-contain" />
+          </div>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
           </div>
         </header>
 
@@ -444,7 +450,7 @@ export default function SobreNosPage() {
           {/* 1. SEÇÃO: SOBRE NÓS */}
           <section className="w-full max-w-[1400px] px-4 md:px-10 mt-8 mb-16">
             <div className="bg-[#1a2b45] inline-block px-6 md:px-8 py-2 rounded-t-xl rounded-br-xl mb-4 shadow-lg border border-primary/50 animate-fadeInUp">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">Sobre Nós</h2>
+              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">{t.about.title}</h2>
             </div>
 
             <div className="bg-[#0f172a]/90 rounded-3xl p-6 md:p-10 border border-primary/50 shadow-2xl flex flex-col md:flex-row gap-8 items-center animate-fadeInUp animate-delay-200 hover-lift">
@@ -460,13 +466,13 @@ export default function SobreNosPage() {
 
               <div className="w-full md:w-3/5 text-lg md:text-2xl font-medium leading-relaxed text-whiteish tracking-wide">
                 <p className="mb-4">
-                  A ATLÂNTICO é uma empresa especializada em obras submarinas que atua no mercado com inovação e pessoal qualificado para realização de trabalhos técnicos.
+                  {t.about.paragraph1}
                 </p>
                 <p className="mb-4">
-                  Temos como meta respeito com o cliente, seus colaboradores e meio ambiente.
+                  {t.about.paragraph2}
                 </p>
                 <p>
-                  Contamos com nosso departamento de planejamento para aperfeiçoar os trabalhos reduzindo prazo e custos priorizando segurança nas operações.
+                  {t.about.paragraph3}
                 </p>
               </div>
             </div>
@@ -475,7 +481,7 @@ export default function SobreNosPage() {
           {/* 2. SEÇÃO: CLIENTES */}
           <section id="clientes" className="w-full max-w-[1400px] px-4 md:px-10 mb-16">
             <div className="bg-[#1a2b45] inline-block px-6 md:px-8 py-2 rounded-t-xl rounded-br-xl mb-4 shadow-lg border border-primary/50 animate-fadeInUp">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">Nossos Clientes</h2>
+              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">{t.clients.title}</h2>
             </div>
 
             <div className="bg-[#0f172a]/90 rounded-3xl p-6 md:p-10 border border-primary/50 shadow-2xl animate-fadeInUp animate-delay-200">
@@ -612,7 +618,7 @@ export default function SobreNosPage() {
           {/* 3. SEÇÃO: PARCEIROS */}
           <section id="parceiros" className="w-full max-w-[1400px] px-4 md:px-10 mb-16 relative">
             <div className="bg-[#1a2b45] inline-block px-6 md:px-8 py-2 rounded-t-xl rounded-br-xl mb-4 shadow-lg border border-primary/50 animate-fadeInUp">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">Parceiros</h2>
+              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">{t.partners.title}</h2>
             </div>
 
             <div className="relative w-full flex items-center bg-[#0a111c]/60 py-6 rounded-2xl border border-primary/30 animate-fadeInUp animate-delay-200">
@@ -633,7 +639,7 @@ export default function SobreNosPage() {
           {/* 4. SEÇÃO: GALERIA */}
           <section id="galeria" className="w-full max-w-[1400px] px-4 md:px-10 mb-16 relative">
             <div className="bg-[#1a2b45] inline-block px-6 md:px-8 py-2 rounded-t-xl rounded-br-xl mb-4 shadow-lg border border-primary/50 animate-fadeInUp">
-              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">Galeria</h2>
+              <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">{t.gallery.title}</h2>
             </div>
 
             <div className="relative w-full flex items-center justify-center mt-4 group animate-fadeInUp animate-delay-200">
@@ -679,7 +685,7 @@ export default function SobreNosPage() {
             </a>
           </div>
           <div className="text-center mt-8 text-xs text-gray-500">
-            &copy; 2026 Atlântico Serviços Técnicos Submarinos. Todos os direitos reservados.
+            {t.footer.copyright}
           </div>
         </footer>
 
