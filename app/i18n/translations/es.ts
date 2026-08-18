@@ -33,6 +33,7 @@ export const es: Translation = {
       pipelines: 'Ductos y Cables Submarinos',
       water: 'Tratamiento de Agua',
     },
+    learnMore: 'SABER MÁS',
   },
   
   // Sobre Nosotros

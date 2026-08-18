@@ -33,6 +33,7 @@ export const en: Translation = {
       pipelines: 'Underwater Pipelines and Cables',
       water: 'Water Treatment',
     },
+    learnMore: 'LEARN MORE',
   },
   
   // About Us

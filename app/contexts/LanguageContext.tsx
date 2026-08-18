@@ -13,16 +13,17 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(() => {
-    // Tenta carregar do localStorage imediatamente
-    if (typeof window !== 'undefined') {
-      const savedLocale = localStorage.getItem('locale');
-      if (savedLocale && isValidLocale(savedLocale)) {
-        return savedLocale;
-      }
+  const [locale, setLocaleState] = useState<Locale>(defaultLocale);
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  // Carregar locale do localStorage DEPOIS da hidratação
+  useEffect(() => {
+    const savedLocale = localStorage.getItem('locale');
+    if (savedLocale && isValidLocale(savedLocale)) {
+      setLocaleState(savedLocale);
     }
-    return defaultLocale;
-  });
+    setIsHydrated(true);
+  }, []);
 
   // Atualiza o HTML lang ao montar e quando locale mudar
   useEffect(() => {

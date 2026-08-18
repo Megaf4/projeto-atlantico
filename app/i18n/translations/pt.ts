@@ -19,6 +19,7 @@ export const pt = {
   // Serviços
   services: {
     title: 'Nossos Serviços',
+    learnMore: 'SAIBA MAIS',
     categories: {
       structural: 'Recuperação Estrutural',
       ships: 'Navios e Plataformas',

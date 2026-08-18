@@ -6,7 +6,48 @@ import { useLanguage } from './contexts/LanguageContext';
 import LanguageSwitcher from './components/LanguageSwitcher';
 
 export default function Home() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
+  
+  // Mapeamento de traduções de categorias para injetar no JavaScript
+  const categoryTranslations = {
+    pt: {
+      "Recuperação Estrutural": "Recuperação Estrutural",
+      "Navios e Plataformas": "Navios e Plataformas",
+      "Levantamento e Registro": "Levantamento e Registro",
+      "Hidroelétricas e Barragens": "Hidroelétricas e Barragens",
+      "Inspeção e Vistoria": "Inspeção e Vistoria",
+      "Dragagem e Sondagem": "Dragagem e Sondagem",
+      "Resgate e Salvatagem": "Resgate e Salvatagem",
+      "Mergulho Especializado": "Mergulho Especializado",
+      "Dutos e Cabos Submarinos": "Dutos e Cabos Submarinos",
+      "Tratamento de Água": "Tratamento de Água"
+    },
+    en: {
+      "Recuperação Estrutural": "Structural Recovery",
+      "Navios e Plataformas": "Ships and Platforms",
+      "Levantamento e Registro": "Survey and Recording",
+      "Hidroelétricas e Barragens": "Hydroelectric Plants and Dams",
+      "Inspeção e Vistoria": "Inspection and Survey",
+      "Dragagem e Sondagem": "Dredging and Sounding",
+      "Resgate e Salvatagem": "Rescue and Salvage",
+      "Mergulho Especializado": "Specialized Diving",
+      "Dutos e Cabos Submarinos": "Underwater Pipelines and Cables",
+      "Tratamento de Água": "Water Treatment"
+    },
+    es: {
+      "Recuperação Estrutural": "Recuperación Estructural",
+      "Navios e Plataformas": "Buques y Plataformas",
+      "Levantamento e Registro": "Levantamiento y Registro",
+      "Hidroelétricas e Barragens": "Hidroeléctricas y Represas",
+      "Inspeção e Vistoria": "Inspección y Revisión",
+      "Dragagem e Sondagem": "Dragado y Sondeo",
+      "Resgate e Salvatagem": "Rescate y Salvamento",
+      "Mergulho Especializado": "Buceo Especializado",
+      "Dutos e Cabos Submarinos": "Ductos y Cables Submarinos",
+      "Tratamento de Água": "Tratamiento de Agua"
+    }
+  };
+  
   return (
     <>
       <style jsx global>{`
