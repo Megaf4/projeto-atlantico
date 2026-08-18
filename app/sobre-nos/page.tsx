@@ -438,10 +438,10 @@ export default function SobreNosPage() {
               <a href="/fale-conosco" className="hover:text-accent transition-colors text-white py-2 block">{t.nav.contactUs}</a>
             </nav>
           </div>
-          <div className="cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center animate-fadeIn animate-delay-200" onClick={() => window.location.href='/'}>
-            <img src="/images/logo-atlatico-vector.png" alt="Atlântico Logo" className="h-12 md:h-16 object-contain" />
-          </div>
           <div className="flex items-center gap-4">
+            <div className="cursor-pointer hover:opacity-80 transition-opacity animate-fadeIn animate-delay-200" onClick={() => window.location.href='/'}>
+              <img src="/images/logo-atlatico-vector.png" alt="Atlântico Logo" className="h-10 md:h-14 object-contain" />
+            </div>
             <LanguageSwitcher />
           </div>
         </header>
@@ -486,131 +486,13 @@ export default function SobreNosPage() {
 
             <div className="bg-[#0f172a]/90 rounded-3xl p-6 md:p-10 border border-primary/50 shadow-2xl animate-fadeInUp animate-delay-200">
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-                {/* Lista de Clientes */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">4S ENGENHARIA</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Acompanhamento de estacas raiz e inspeção estrutural</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">AGEO</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Inspeção de sistema de captação de água em terminal portuário</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">ALIANÇA ENERGIA</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Manutenções e reparos em usina hidrelétrica</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">ARATU ENERGIA</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Apoio a manutenções e reparos subaquáticos</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">AT&T ENERGIA</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Manutenções em usina hidrelétrica</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">AUREN</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Serviços especializados em energia</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">AXXO</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Ampliação do Terminal Santos Brasil</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">BRACELL</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Instalação de comportas de controle de água</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">BRK AMBIENTAL</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Múltiplos projetos de saneamento</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">BTP</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Inspeções em terminal portuário Santos</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CAMARGO CORRÊA</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Inspeção estrutural de pontes</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CEMIG</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Manutenção de usinas em Minas Gerais</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CGH CASCATA</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Limpeza e inspeção de grades</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CGH SARDOÁ</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Levantamento batimétrico de usina</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CHIP BELÉM</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Resgate de ponte colapsada</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CLI</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Topobatimetria e corte subaquático</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CLUBE INT. REGATAS</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Dragagem de berços náuticos Guarujá</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CMA CGM</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Içamento técnico de embarcações</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CODESP</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Resgate de embarcações submersas</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">COFCO</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Inspeção completa de terminal portuário</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">SWISS PARK</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Inspeção de sistema de comportas</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CONSÓRCIO PAULITEC</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Recuperação Ponte dos Barreiros</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CTG BRASIL</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">14 usinas hidrelétricas - Contrato 2024/2025</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">CUTRALE</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Terminal de suco - Proteção catódica</p>
-                </div>
-                
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
-                  <h3 className="text-accent font-bold text-lg md:text-xl mb-2">DAE</h3>
-                  <p className="text-gray-300 text-xs md:text-sm">Serviços de saneamento</p>
-                </div>
+                {/* Lista de Clientes Dinâmica */}
+                {Object.entries(t.clients.list).map(([key, client]) => (
+                  <div key={key} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all hover:scale-105 cursor-pointer border border-primary/30">
+                    <h3 className="text-accent font-bold text-lg md:text-xl mb-2">{client.name}</h3>
+                    <p className="text-gray-300 text-xs md:text-sm">{client.desc}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </section>

@@ -2,6 +2,7 @@
 
 import Script from 'next/script';
 import { useLanguage } from '../contexts/LanguageContext';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 
 export default function FaleConoscoPage() {
   const { t } = useLanguage();
@@ -129,8 +130,11 @@ export default function FaleConoscoPage() {
               <a href="/fale-conosco" className="hover:text-accent transition-colors text-accent py-2 block">{t.nav.contactUs}</a>
             </nav>
           </div>
-          <div className="cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center animate-fadeIn animate-delay-200" onClick={() => window.location.href='/'}>
-            <img src="/images/logo-atlatico-vector.png" alt="Atlântico Logo" className="h-12 md:h-16 object-contain" />
+          <div className="flex items-center gap-4">
+            <div className="cursor-pointer hover:opacity-80 transition-opacity animate-fadeIn animate-delay-200" onClick={() => window.location.href='/'}>
+              <img src="/images/logo-atlatico-vector.png" alt="Atlântico Logo" className="h-10 md:h-14 object-contain" />
+            </div>
+            <LanguageSwitcher />
           </div>
         </header>
 

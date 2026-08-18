@@ -45,6 +45,33 @@ export const pt = {
   // Clientes
   clients: {
     title: 'Nossos Clientes',
+    list: {
+      '4s': { name: '4S ENGENHARIA', desc: 'Acompanhamento de estacas raiz e inspeção estrutural' },
+      'ageo': { name: 'AGEO', desc: 'Inspeção de sistema de captação de água em terminal portuário' },
+      'alianca': { name: 'ALIANÇA ENERGIA', desc: 'Manutenções e reparos em usina hidrelétrica' },
+      'aratu': { name: 'ARATU ENERGIA', desc: 'Apoio a manutenções e reparos subaquáticos' },
+      'att': { name: 'AT&T ENERGIA', desc: 'Manutenções em usina hidrelétrica' },
+      'auren': { name: 'AUREN', desc: 'Serviços especializados em energia' },
+      'axxo': { name: 'AXXO', desc: 'Ampliação do Terminal Santos Brasil' },
+      'bracell': { name: 'BRACELL', desc: 'Instalação de comportas de controle de água' },
+      'brk': { name: 'BRK AMBIENTAL', desc: 'Múltiplos projetos de saneamento' },
+      'btp': { name: 'BTP', desc: 'Inspeções em terminal portuário Santos' },
+      'camargo': { name: 'CAMARGO CORRÊA', desc: 'Inspeção estrutural de pontes' },
+      'cemig': { name: 'CEMIG', desc: 'Manutenção de usinas em Minas Gerais' },
+      'cgh-cascata': { name: 'CGH CASCATA', desc: 'Limpeza e inspeção de grades' },
+      'cgh-sardoa': { name: 'CGH SARDOÁ', desc: 'Levantamento batimétrico de usina' },
+      'chip': { name: 'CHIP BELÉM', desc: 'Resgate de ponte colapsada' },
+      'cli': { name: 'CLI', desc: 'Topobatimetria e corte subaquático' },
+      'clube': { name: 'CLUBE INT. REGATAS', desc: 'Dragagem de berços náuticos Guarujá' },
+      'cma': { name: 'CMA CGM', desc: 'Içamento técnico de embarcações' },
+      'codesp': { name: 'CODESP', desc: 'Resgate de embarcações submersas' },
+      'cofco': { name: 'COFCO', desc: 'Inspeção completa de terminal portuário' },
+      'swiss': { name: 'SWISS PARK', desc: 'Inspeção de sistema de comportas' },
+      'consorcio': { name: 'CONSÓRCIO PAULITEC', desc: 'Recuperação Ponte dos Barreiros' },
+      'ctg': { name: 'CTG BRASIL', desc: '14 usinas hidrelétricas - Contrato 2024/2025' },
+      'cutrale': { name: 'CUTRALE', desc: 'Terminal de suco - Proteção catódica' },
+      'dae': { name: 'DAE', desc: 'Serviços de saneamento' }
+    }
   },
   
   // Parceiros
