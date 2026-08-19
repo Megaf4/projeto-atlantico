@@ -45,19 +45,19 @@ export default function ServicosPage() {
 
       <Script id="servicos-override-borders" strategy="lazyOnload">
         {`
-// Runtime override: append CSS at the end of <head> to ensure it overrides Tailwind utilities
-;(function(){
+// Runtime override: append CSS at the end of head to ensure it overrides Tailwind utilities
+(function(){
   try {
-    const css = `
-      #categories-container button, #categories-container button * { border: none !important; box-shadow: none !important; outline: none !important; }
-      #categories-container button::before, #categories-container button::after,
-      .dropdown-service-link::before, .dropdown-service-link::after,
-      .mobile-link::before, .mobile-link::after { display: none !important; content: none !important; border: none !important; box-shadow: none !important; }
-      .service-card, .service-card * { border: none !important; box-shadow: none !important; }
-    `;
+    const cssRules = [
+      '#categories-container button, #categories-container button * { border: none !important; box-shadow: none !important; outline: none !important; }',
+      '#categories-container button::before, #categories-container button::after,',
+      '.dropdown-service-link::before, .dropdown-service-link::after,',
+      '.mobile-link::before, .mobile-link::after { display: none !important; content: none !important; border: none !important; box-shadow: none !important; }',
+      '.service-card, .service-card * { border: none !important; box-shadow: none !important; }'
+    ];
     const s = document.createElement('style');
     s.setAttribute('data-injected','servicos-override');
-    s.innerHTML = css;
+    s.innerHTML = cssRules.join('\\n');
     document.head.appendChild(s);
   } catch(e){ console.error('Error injecting override css', e); }
 })();
