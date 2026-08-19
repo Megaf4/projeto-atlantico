@@ -5,6 +5,16 @@ import { useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 
+// Extend Window interface to include custom functions
+declare global {
+  interface Window {
+    scrollPartners: (direction: number) => void;
+    scrollGallery: (direction: number) => void;
+    openLightbox: (url: string, type: string) => void;
+    closeLightbox: () => void;
+  }
+}
+
 export default function SobreNosPage() {
   const { t } = useLanguage();
   useEffect(() => {
