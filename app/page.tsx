@@ -808,6 +808,15 @@ function renderizarCards() {
       e.stopPropagation();
       const isExpanded = card.classList.contains('card-expanded');
       
+      // Se já está expandido, redirecionar para fale-conosco com serviço pré-selecionado
+      if (isExpanded) {
+        // Codificar o nome da categoria para a URL
+        const servicoParam = encodeURIComponent(categoriaAtual);
+        window.location.href = '/fale-conosco?servico=' + servicoParam;
+        return;
+      }
+      
+      // Se não está expandido, expandir o card
       document.querySelectorAll('.service-card').forEach(c => {
         c.classList.remove('card-expanded');
         const btnEl = c.querySelector('.btn-action');
@@ -817,12 +826,10 @@ function renderizarCards() {
         }
       });
       
-      if (!isExpanded) {
-        card.classList.add('card-expanded');
-        button.textContent = 'CONTRATAR SERVIÇO';
-        button.classList.replace('bg-dark', 'bg-accent');
-        card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-      }
+      card.classList.add('card-expanded');
+      button.textContent = 'CONTRATAR SERVIÇO';
+      button.classList.replace('bg-dark', 'bg-accent');
+      card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     });
     
     carouselTrack.appendChild(card);

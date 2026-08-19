@@ -3,9 +3,42 @@
 import Script from 'next/script';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitcher from '../components/LanguageSwitcher';
+import { useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 export default function FaleConoscoPage() {
   const { t } = useLanguage();
+  const searchParams = useSearchParams();
+  
+  useEffect(() => {
+    // Pegar o parâmetro 'servico' da URL
+    const servicoParam = searchParams.get('servico');
+    
+    if (servicoParam) {
+      // Aguardar um momento para o DOM estar pronto
+      setTimeout(() => {
+        const selectElement = document.querySelector('select[name="Servico"]') as HTMLSelectElement;
+        if (selectElement) {
+          // Tentar encontrar a opção correspondente
+          const options = Array.from(selectElement.options);
+          const matchingOption = options.find(opt => 
+            opt.value === servicoParam || 
+            opt.textContent?.includes(servicoParam)
+          );
+          
+          if (matchingOption) {
+            selectElement.value = matchingOption.value;
+            // Destacar o campo brevemente
+            selectElement.style.border = '2px solid #E19747';
+            setTimeout(() => {
+              selectElement.style.border = '';
+            }, 2000);
+          }
+        }
+      }, 100);
+    }
+  }, [searchParams]);
+  
   return (
     <>
       <style jsx global>{`
