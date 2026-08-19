@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a4a6e;
+  --background: rgba(14,26,43,0.5); /* #0e1a2b at 50% */
   --foreground: #ffffff;
 }
 
@@ -19,11 +19,11 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0a4a6e;
+  background: var(--background);
 }
 
 body {
-  background: #0a4a6e;
+  background: var(--background);
   color: var(--foreground);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -68,4 +68,184 @@ html, body, #__next {
 
 .animate-fade-in {
   animation: fadeIn 0.6s ease-out;
+}
+
+/* Custom overrides to remove unwanted white borders, make service cards solid
+   dark-blue and disable image scale-on-hover inside cards. */
+
+/* Remove unexpected white borders on common interactive elements */
+button, a, .btn-action, .dropdown-service-link, .mobile-link {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Make service cards opaque dark-blue (match header primary) and remove borders */
+.service-card, .service-card > div:last-child {
+  background-color: #223A5E !important;
+  border: none !important;
+}
+
+/* Ensure watermark/overlay stays subtle and text remains readable */
+.service-card img[alt="Watermark"], .service-card .absolute[alt] {
+  opacity: 0.05 !important;
+}
+
+/* Prevent the left-side card image from scaling on hover */
+.service-card .bg-cover, .service-card img, .service-card .object-cover {
+  transform: none !important;
+  transition: none !important;
+}
+
+/* Specific: keep the site header color variable consistent */
+:root {
+  --site-primary: #223A5E;
+}
+
+/* Safety: remove thin white borders applied with utility classes like border-white/20 */
+[class*="border-white"] {
+  border-color: transparent !important;
+}
+
+/* Strong overrides targeting the service category buttons and related elements */
+#categories-container button,
+#categories-container .dropdown-service-link,
+#categories-container .mobile-link,
+.service-card,
+.service-card *,
+.dropdown-service-link,
+.mobile-link,
+.btn-action {
+  border: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Remove subtle white outlines produced by border utilities (Tailwind) */
+[class*="border-primary"],
+[class*="border-light"],
+[class*="border-"],
+[class*="border-white"],
+[class*="border-"] {
+  border-color: transparent !important;
+  border-width: 0 !important;
+}
+
+/* Remove any pseudo-element borders or outlines that create thin strokes */
+#categories-container button::before,
+#categories-container button::after,
+.dropdown-service-link::before,
+.dropdown-service-link::after,
+.mobile-link::before,
+.mobile-link::after {
+  display: none !important;
+  content: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* -- New requested styles -- */
+
+/* Restore border for gallery items that use explicit Tailwind border utilities */
+[class*="border-[#e2e8f0]"], [class*="border-[4px]"] {
+  border-color: #e2e8f0 !important;
+  border-width: 4px !important;
+}
+
+/* Buttons: solid background (not transparent), matching site primary */
+.btn-action {
+  background-color: #223A5E !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25) !important;
+}
+
+/* Background for Sobre Nós section: fixed image + darker overlay fallback */
+.sobre-nos-bg {
+  /* Image removed per request — keep neutral fallback color */
+  background-image: none !important;
+  background-color: #2b4c7e !important;
+  background-size: auto !important;
+  background-position: center center !important;
+  background-attachment: scroll !important;
+  position: relative;
+}
+
+/* New panel class used in Sobre Nós to avoid legacy compiled rules */
+.sobre-nos-panel {
+  background-image: none !important;
+  background-color: #2b4c7e !important;
+  position: relative;
+}
+.sobre-nos-panel, .sobre-nos-panel * {
+  color: #ffffff !important;
+}
+
+/* Ensure all text in Sobre Nós stays white and doesn't turn orange on hover */
+.sobre-nos-bg, .sobre-nos-bg * {
+  color: #ffffff !important;
+}
+.sobre-nos-bg a:hover, .sobre-nos-bg button:hover, .sobre-nos-bg h1:hover, .sobre-nos-bg h2:hover, .sobre-nos-bg h3:hover, .sobre-nos-bg p:hover, .sobre-nos-bg *:hover {
+  color: #ffffff !important;
+}
+.sobre-nos-bg svg, .sobre-nos-bg i {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* Global hover color for text and interactive elements (kept, but Sobre Nós overrides above) */
+a:hover, button:hover, .dropdown-service-link:hover, .mobile-link:hover, .btn-action:hover, .hover-lift:hover, .service-card:hover {
+  color: #E19747 !important;
+}
+
+/* Also set SVG/icon strokes on hover */
+svg:hover, i:hover {
+  color: #E19747 !important;
+}
+
+/* Homepage services specific background: #0e1a2b at 50% opacity */
+.homepage-services-bg {
+  background-color: transparent !important; /* allow service-bg overlay to control visible color */
+  position: relative;
+}
+
+/* Separator strip matching the header appearance (used between hero and services) */
+.services-separator {
+  background-color: #0E1A2B !important;
+  height: 48px; /* increased thickness per request */
+  width: 100%;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.45);
+  border-top: 1px solid rgba(255,255,255,0.02);
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  z-index: 40;
+}
+
+/* Strong overrides to ensure no orange hover inside Sobre Nós panel */
+.sobre-nos-panel a,
+.sobre-nos-panel a:visited,
+.sobre-nos-panel a:active,
+.sobre-nos-panel button {
+  color: #ffffff !important;
+  background: transparent !important;
+  text-decoration: none !important;
+}
+.sobre-nos-panel a:hover,
+.sobre-nos-panel a:focus,
+.sobre-nos-panel button:hover,
+.sobre-nos-panel *:hover {
+  color: #ffffff !important;
+  background: transparent !important;
+}
+.sobre-nos-panel svg,
+.sobre-nos-panel svg * {
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* ensure icons and pseudo elements inside the panel also remain white */
+.sobre-nos-panel ::before,
+.sobre-nos-panel ::after {
+  color: #ffffff !important;
 }

@@ -462,10 +462,13 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Separator strip identical to header */}
+        <div className="services-separator" aria-hidden="true" style={{height: '48px', backgroundColor: '#0E1A2B', boxShadow: '0 -2px 12px rgba(0,0,0,0.45)', borderTop: '1px solid rgba(255,255,255,0.02)', borderBottom: '1px solid rgba(255,255,255,0.03)', zIndex: 40}}></div>
+
         {/* SEÇÃO DE SERVIÇOS */}
-        <section id="servicos" className="relative min-h-screen py-16 overflow-hidden flex flex-col items-center bg-dark">
-          <div id="service-bg" className="absolute inset-0 z-0 transition-all duration-700 opacity-30">
-            <div className="absolute inset-0 bg-dark/80 backdrop-blur-sm"></div>
+        <section id="servicos" className="relative min-h-screen py-16 overflow-hidden flex flex-col items-center homepage-services-bg" style={{backgroundColor: 'transparent'}}>
+          <div id="service-bg" className="absolute inset-0 z-0 transition-all duration-700" style={{backgroundColor: 'rgba(34,58,94,0.5)', backgroundBlendMode: 'overlay', opacity: 1}}>
+            <div style={{position: 'absolute', inset: 0, backgroundColor: 'rgba(34,58,94,0.5)', pointerEvents: 'none'}} aria-hidden="true"></div>
           </div>
           <div className="relative z-10 w-full max-w-[1400px] px-2 md:px-4 flex flex-col h-full">
             <div className="bg-[#1a2b45] inline-block px-6 md:px-8 py-2 rounded-t-xl rounded-br-xl mb-6 shadow-lg border border-primary/50 self-start ml-2 md:ml-10 animate-fadeInUp">
@@ -677,7 +680,21 @@ function renderizarBotoes() {
   categorias.forEach(cat => {
     const isActive = cat === categoriaAtual;
     const btn = document.createElement('button');
-    btn.className = 'px-1 md:px-2 py-2 md:py-3 rounded-md uppercase text-[10px] md:text-base font-bold transition-all shadow-md border leading-tight ' + (isActive ? 'bg-[#2b4c7e] text-white border-light/50 scale-105' : 'bg-[#15253F] text-gray-200 border-primary hover:bg-[#223A5E] hover:text-white');
+    btn.className = 'px-1 md:px-2 py-2 md:py-3 rounded-md uppercase text-[10px] md:text-base font-bold transition-all leading-tight';
+    // Remove borders/shadows that create thin white outlines and use inline colors
+    btn.style.border = 'none';
+    btn.style.boxShadow = 'none';
+    btn.style.outline = 'none';
+    if (isActive) {
+      btn.style.backgroundColor = '#2b4c7e';
+      btn.style.color = '#ffffff';
+      btn.style.transform = 'scale(1.05)';
+    } else {
+      btn.style.backgroundColor = '#15253F';
+      btn.style.color = '#cbd5e1';
+      btn.addEventListener('mouseenter', () => btn.style.backgroundColor = '#1a2b45');
+      btn.addEventListener('mouseleave', () => btn.style.backgroundColor = '#15253F');
+    }
     
     // Usar tradução se disponível, senão usar o nome original
     const translatedName = translations[cat] || cat;

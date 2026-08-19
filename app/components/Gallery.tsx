@@ -95,7 +95,7 @@ export default function Gallery() {
               return (
                 <div 
                   key={`${image.url}-${index}`}
-                  className={`shrink-0 relative ${rowSpan} w-64 md:w-80 rounded-2xl overflow-hidden group cursor-pointer shadow-2xl hover:scale-105 transition-all border-2 border-primary/20`}
+                  className={`gallery-img-wrapper shrink-0 relative ${rowSpan} w-64 md:w-80 rounded-2xl overflow-hidden group cursor-pointer shadow-2xl hover:scale-105 transition-all`}
                   onClick={() => setSelectedImage(image)}
                 >
                   <img 

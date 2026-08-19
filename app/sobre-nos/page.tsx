@@ -8,6 +8,17 @@ import LanguageSwitcher from '../components/LanguageSwitcher';
 export default function SobreNosPage() {
   const { t } = useLanguage();
   useEffect(() => {
+    // Force-remove any background-image set by compiled CSS (use important)
+    try {
+      const sobreEl = document.querySelector('.sobre-nos-bg') as HTMLElement | null;
+      if (sobreEl) {
+        sobreEl.style.setProperty('background-image', 'none', 'important');
+        sobreEl.style.setProperty('background-color', '#2b4c7e', 'important');
+      }
+    } catch (e) {
+      // ignore
+    }
+
     const timer = setTimeout(async () => {
       // 1. Menu Hamburguer
       const menuBtn = document.getElementById('menu-btn');
@@ -161,38 +172,68 @@ export default function SobreNosPage() {
         console.log('⚠️ Galeria não pôde ser carregada');
       }
 
-      let galleryHTML = '';
+      // Build gallery items using DOM methods to avoid complex escape sequences
       const numSets = 3; // Reduzir duplicação já que temos muitas imagens
-      
-      console.log('🎨 Gerando HTML da galeria com', galleryData.length, 'imagens');
+      console.log('🎨 Gerando a galeria (DOM) com', galleryData.length, 'imagens');
 
-      for(let i = 0; i < numSets; i++) {
+      const frag = document.createDocumentFragment();
+
+      for (let i = 0; i < numSets; i++) {
         galleryData.forEach((item, index) => {
-          // Ícone de play para vídeos
-          const playIcon = item.type === 'vid' ? '<div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors"><i class="fa-solid fa-play text-white/80 text-4xl drop-shadow-md"></i></div>' : '';
-          
-          // Label com nome do cliente
-          const clienteLabel = item.cliente ? '<div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3 opacity-0 group-hover:opacity-100 transition-opacity"><p class="text-white text-sm font-bold truncate">' + item.cliente + '</p></div>' : '';
-          
-          // Usar caminho direto das imagens (Vercel)
-          const thumbnailUrl = item.type === 'vid' 
-            ? 'https://via.placeholder.com/260x260/1a2b45/FFFFFF?text=Video' 
+          const thumbnailUrl = item.type === 'vid'
+            ? 'https://via.placeholder.com/260x260/1a2b45/FFFFFF?text=Video'
             : item.url;
-          
-          // ID único para debug
+
           const imgId = 'gallery-img-' + i + '-' + index;
-          
-          galleryHTML += '<div onclick="window.openLightbox(\'' + item.url.replace(/'/g, "\\'") + '\', \'' + item.type + '\')" class="shrink-0 w-[220px] h-[220px] md:w-[260px] md:h-[260px] bg-[#223A5E] rounded-3xl overflow-hidden border-[4px] md:border-[6px] border-[#e2e8f0] relative cursor-pointer group shadow-lg flex items-center justify-center">' +
-            '<img id="' + imgId + '" src="' + thumbnailUrl.replace(/"/g, '&quot;') + '" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Trabalho ' + (item.cliente || 'Atlântico') + '" loading="lazy" onload="console.log(\'✅ Imagem carregada:\', \'' + item.cliente + '\')" onerror="console.error(\'❌ Erro ao carregar:\', \'' + item.cliente + '\', this.src); this.onerror=null; this.style.display=\'none\'; this.parentElement.innerHTML += \'<div class=\\\'text-center text-white p-4\\\'><i class=\\\'fa-solid fa-image-slash text-4xl mb-2 opacity-50\\\'></i><p class=\\\'text-sm font-bold\\\'>' + (item.cliente || 'Imagem') + '</p><p class=\\\'text-xs opacity-70 mt-1\\\'>Imagem não disponível</p></div>\';">' +
-            playIcon +
-            clienteLabel +
-            '</div>';
+
+          const itemDiv = document.createElement('div');
+          itemDiv.className = 'shrink-0 w-[220px] h-[220px] md:w-[260px] md:h-[260px] bg-[#223A5E] rounded-3xl overflow-hidden border-[4px] md:border-[6px] border-[#e2e8f0] relative cursor-pointer group shadow-lg flex items-center justify-center';
+          itemDiv.addEventListener('click', () => {
+            try { window.openLightbox(item.url, item.type); } catch (e) { console.warn('openLightbox missing', e); }
+          });
+
+          const img = document.createElement('img');
+          img.id = imgId;
+          img.src = thumbnailUrl;
+          img.className = 'w-full h-full object-cover transition-transform duration-500 group-hover:scale-110';
+          img.alt = 'Trabalho ' + (item.cliente || 'Atlântico');
+          img.loading = 'lazy';
+          img.onload = () => console.log('✅ Imagem carregada:', item.cliente);
+          img.onerror = function () {
+            console.error('❌ Erro ao carregar:', item.cliente, this.src);
+            this.onerror = null;
+            this.style.display = 'none';
+            const fallback = document.createElement('div');
+            fallback.className = 'text-center text-white p-4';
+            fallback.innerHTML = '<i class="fa-solid fa-image-slash text-4xl mb-2 opacity-50"></i><p class="text-sm font-bold">' + (item.cliente || 'Imagem') + '</p><p class="text-xs opacity-70 mt-1">Imagem não disponível</p>';
+            itemDiv.appendChild(fallback);
+          };
+
+          itemDiv.appendChild(img);
+
+          // optional: add play icon and client label as HTML
+          if (item.type === 'vid') {
+            const playWrap = document.createElement('div');
+            playWrap.className = 'absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors';
+            playWrap.innerHTML = '<i class="fa-solid fa-play text-white/80 text-4xl drop-shadow-md"></i>';
+            itemDiv.appendChild(playWrap);
+          }
+
+          if (item.cliente) {
+            const clienteLabel = document.createElement('div');
+            clienteLabel.className = 'absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-3 opacity-0 group-hover:opacity-100 transition-opacity';
+            clienteLabel.innerHTML = '<p class="text-white text-sm font-bold truncate">' + item.cliente + '</p>';
+            itemDiv.appendChild(clienteLabel);
+          }
+
+          frag.appendChild(itemDiv);
         });
       }
-      
+
       if (galleryTrack) {
-        galleryTrack.innerHTML = galleryHTML;
-        console.log('✅ HTML da galeria inserido no DOM');
+        galleryTrack.innerHTML = '';
+        galleryTrack.appendChild(frag);
+        console.log('✅ Galeria inserida no DOM (DOM build)');
       }
 
       let gallerySetWidth = 0;
@@ -453,7 +494,7 @@ export default function SobreNosPage() {
               <h2 className="text-3xl md:text-5xl font-bold uppercase tracking-widest text-white">{t.about.title}</h2>
             </div>
 
-            <div className="bg-[#0f172a]/90 rounded-3xl p-6 md:p-10 border border-primary/50 shadow-2xl flex flex-col md:flex-row gap-8 items-center animate-fadeInUp animate-delay-200 hover-lift">
+              <div className="sobre-nos-panel rounded-3xl p-6 md:p-10 border border-primary/50 shadow-2xl flex flex-col md:flex-row gap-8 items-center animate-fadeInUp animate-delay-200 hover-lift" style={{backgroundColor: '#2b4c7e'}}>
               <div className="w-full md:w-2/5 h-64 md:h-96 relative rounded-2xl overflow-hidden border-2 border-white/20 shrink-0">
                 <div className="absolute top-4 right-4 z-20 w-8 h-8 opacity-70">
                   <img src="/images/logo-atlatico-vector.png" alt="Icon" className="w-full h-full object-contain mix-blend-screen grayscale brightness-200" />

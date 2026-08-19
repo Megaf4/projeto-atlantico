@@ -43,6 +43,27 @@ export default function ServicosPage() {
         `}
       </Script>
 
+      <Script id="servicos-override-borders" strategy="lazyOnload">
+        {`
+// Runtime override: append CSS at the end of <head> to ensure it overrides Tailwind utilities
+;(function(){
+  try {
+    const css = `
+      #categories-container button, #categories-container button * { border: none !important; box-shadow: none !important; outline: none !important; }
+      #categories-container button::before, #categories-container button::after,
+      .dropdown-service-link::before, .dropdown-service-link::after,
+      .mobile-link::before, .mobile-link::after { display: none !important; content: none !important; border: none !important; box-shadow: none !important; }
+      .service-card, .service-card * { border: none !important; box-shadow: none !important; }
+    `;
+    const s = document.createElement('style');
+    s.setAttribute('data-injected','servicos-override');
+    s.innerHTML = css;
+    document.head.appendChild(s);
+  } catch(e){ console.error('Error injecting override css', e); }
+})();
+        `}
+      </Script>
+
       <div className="bg-dark text-whiteish font-sans overflow-x-hidden">
         {/* HEADER */}
         <header className="fixed top-0 w-full z-50 bg-[#0E1A2B] shadow-lg flex items-center justify-between px-4 md:px-10 py-3 md:py-4">
@@ -394,7 +415,21 @@ function renderizarBotoes() {
   categorias.forEach(cat => {
     const isActive = cat === categoriaAtual;
     const btn = document.createElement('button');
-    btn.className = 'px-1 md:px-2 py-2 md:py-3 rounded-md uppercase text-[10px] md:text-base font-bold transition-all shadow-md border leading-tight ' + (isActive ? 'bg-[#2b4c7e] text-white border-light/50 scale-105' : 'bg-dark text-gray-300 border-primary hover:bg-[#1a2b45] hover:text-white');
+    btn.className = 'px-1 md:px-2 py-2 md:py-3 rounded-md uppercase text-[10px] md:text-base font-bold transition-all leading-tight';
+    // Inline styles to avoid Tailwind border/pseudo-element utilities that add white outlines
+    btn.style.border = 'none';
+    btn.style.boxShadow = 'none';
+    btn.style.outline = 'none';
+    if (isActive) {
+      btn.style.backgroundColor = '#2b4c7e';
+      btn.style.color = '#ffffff';
+      btn.style.transform = 'scale(1.05)';
+    } else {
+      btn.style.backgroundColor = '#15253F';
+      btn.style.color = '#cbd5e1';
+      btn.addEventListener('mouseenter', () => btn.style.backgroundColor = '#1a2b45');
+      btn.addEventListener('mouseleave', () => btn.style.backgroundColor = '#15253F');
+    }
     const partes = cat.split(' e ');
     if(partes.length > 1) {
       btn.innerHTML = partes[0] + ' E<br>' + partes[1];
