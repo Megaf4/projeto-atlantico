@@ -436,7 +436,7 @@ export default function SobreNosPage() {
       <div className="bg-dark text-whiteish font-sans overflow-x-hidden relative">
         {/* Background Fixo */}
         <div className="fixed inset-0 z-[-1]">
-          <img src="https://images.unsplash.com/photo-1682687981974-c5ef2111640c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Fundo Mar" className="w-full h-full object-cover opacity-30 mix-blend-overlay" />
+          <img src="/images/sobre-bg.jpg" alt="Fundo Mar" className="w-full h-full object-cover opacity-30 mix-blend-overlay" />
           <div className="absolute inset-0 bg-[#0a111c]/80 backdrop-blur-[2px]"></div>
         </div>
 
