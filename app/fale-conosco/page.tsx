@@ -4,15 +4,14 @@ import Script from 'next/script';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 import { useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
 
 export default function FaleConoscoPage() {
   const { t } = useLanguage();
-  const searchParams = useSearchParams();
   
   useEffect(() => {
-    // Pegar o parâmetro 'servico' da URL
-    const servicoParam = searchParams.get('servico');
+    // Pegar o parâmetro 'servico' da URL usando window.location
+    const urlParams = new URLSearchParams(window.location.search);
+    const servicoParam = urlParams.get('servico');
     
     if (servicoParam) {
       // Aguardar um momento para o DOM estar pronto
@@ -37,7 +36,7 @@ export default function FaleConoscoPage() {
         }
       }, 100);
     }
-  }, [searchParams]);
+  }, []);
   
   return (
     <>
